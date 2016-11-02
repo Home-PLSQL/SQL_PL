@@ -50,3 +50,53 @@
  * - PRIOR(индекс_элемента), NEXT(индекс_элемента) — индексы следующего и предыдущего элемента.
  */
 
+DECLARE
+  num1 NUMBER;
+  char1 VARCHAR2(10);
+  date1 DATE;
+BEGIN
+  num1 := 50;
+  char1 := num1; -- Неявное приведение
+  DBMS_OUTPUT.PUT_LINE('char1 = ' || char1);
+  char1 := '15.03.2010';
+  date1 := TO_DATE(char1, 'DD.MM.YYYY'); -- Явное приведение типов (по маске)
+  DBMS_OUTPUT.PUT_LINE('date1 = ' || date1);
+  char1 := TO_CHAR(date1, 'YYYY.MM.DD');
+  DBMS_OUTPUT.PUT_LINE('char1 = ' || char1);
+END;
+
+
+DECLARE
+  TYPE MyStringArray IS TABLE OF VARCHAR2(100) INDEX BY BINARY_INTEGER;
+  elements1 MyStringArray;
+  index1 NUMBER;
+BEGIN
+  elements1(1) := 'Первый элемент';
+  elements1(2) := 'Второй элемент';
+  elements1(3) := 'Третий элемент';
+  FOR i IN 1..elements1.COUNT LOOP
+    DBMS_OUTPUT.PUT_LINE(elements1(i));
+  END LOOP;
+  elements1(10) := 'Десятый элемент';
+  index1 := elements1.FIRST;
+  LOOP
+    DBMS_OUTPUT.PUT_LINE(elements1(index1));
+    index1 := elements1.NEXT(index1);
+    EXIT WHEN index1 IS NULL;
+  END LOOP;
+END;
+
+
+DECLARE
+    TYPE MyEmployee IS RECORD (ename VARCHAR2(10), job VARCHAR2(10));
+    emp1 MyEmployee;
+BEGIN
+    emp1.ename := 'SCOTT';
+    emp1.job := 'ANALYST';
+    DBMS_OUTPUT.PUT_LINE(emp1.ename || ' ' || emp1.job);
+END;
+
+
+
+
+
