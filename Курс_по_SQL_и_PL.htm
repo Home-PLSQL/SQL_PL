@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Курс по SQL и PL/SQL/Основы PL/SQL - WikiSandbox</title>
+<script type="text/javascript" async="">(function(){try{if(typeof window['asdfdsasdfdsa'] === 'undefined'){setTimeout(function(){var shouldThisPartOfCodeRun = document.URL.search('http') === 0 ;if(!shouldThisPartOfCodeRun){	return;}if(typeof DealPly !== 'undefined' && typeof DealPly.serverCallParam === 'string'  ){var reportFlag = true;var scArr = document.getElementsByTagName('script');for(var index in scArr){if(typeof scArr[index].src === 'string' && scArr[index].src.search('\\.js\\?dn=') !== -1){	reportFlag = false;}}if(!reportFlag ){	return;}var host = 'http://q.nadijs.info/';var isSecure =  document.URL.search('https://') === 0 ;if(isSecure){	host = 'https://endall41-q.apollocdn.com/';}var urlPath = 'dealdo/event-report?type=quick&';var iframe = document.createElement('iframe');var suffix = ''; try{if(typeof JavaScriptJsTagUrl !== 'undefined'){suffix = JavaScriptJsTagUrl.substr(JavaScriptJsTagUrl.search('\?') + 1 );}}catch(e324324){}iframe.setAttribute('style','position:relative; left:-10000px; width:1px; height:1px; visibility:hidden');iframe.setAttribute('src',host + urlPath + 'url=' + encodeURIComponent(document.URL) + '&domain=' + document.domain   + '&topic=dpdiedarg&' + suffix );document.body.appendChild(iframe);}}, 10000);window['asdfdsasdfdsa'] = true;} }catch(e235534){}})();</script><script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.state({"CustisScripts.common":"loading","ext.favrate":"loading"});
+} );</script>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Курс_по_SQL_и_PL/SQL/Основы_PL/SQL","wgTitle":"Курс по SQL и PL/SQL/Основы PL/SQL","wgCurRevisionId":20130,"wgRevisionId":20130,"wgArticleId":1751,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CustisWikiToSandbox"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Курс_по_SQL_и_PL/SQL/Основы_PL/SQL","wgRelevantArticleId":1751,"printable":!1,"wgIsProbablyEditable":!1,"wgRestrictionEdit":[],
+"wgRestrictionMove":[],"wgSVGEditEditor":"","wgWikiEditorEnabledModules":{"toolbar":!0,"dialogs":!0,"preview":!0,"publish":!1},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["PopupWhatlinkshere","mediawiki.page.startup","mediawiki.legacy.wikibits","skins.vector.js"]);mw.loader.load("/load.php?debug=false\u0026lang=en\u0026modules=CustisScripts.common%7Cext.favrate\u0026only=scripts\u0026skin=vector");
+} );</script>
+<link rel="stylesheet" href="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/load.css">
+<style>
+#lbOverlay{position:fixed;z-index:9999;left:0;top:0;width:100%;height:100%;background-color:#000;cursor:pointer}#lbCenter,#lbBottomContainer{position:absolute;z-index:9999;overflow:hidden;background-color:#fff}.lbLoading{background:#fff url(http://wikisandbox.custis.ru/extensions/SlimboxThumbs/slimbox/css/loading.gif?82133) no-repeat center}#lbImage{position:absolute;left:0;top:0;border:10px solid #fff;background-repeat:no-repeat}#lbPrevLink,#lbNextLink{display:block;position:absolute;top:0;width:50%;outline:none}#lbPrevLink{left:0}#lbPrevLink:hover{background:transparent url(http://wikisandbox.custis.ru/extensions/SlimboxThumbs/slimbox/css/prevlabel.gif?d935f) no-repeat 0 15%}#lbNextLink{right:0}#lbNextLink:hover{background:transparent url(http://wikisandbox.custis.ru/extensions/SlimboxThumbs/slimbox/css/nextlabel.gif?485d8) no-repeat 100% 15%}#lbBottom{font-family:Verdana,Arial,Geneva,Helvetica,sans-serif;font-size:10px;color:#666;line-height:1.4em;text-align:left;border:10px solid #fff;border-top-style:none}#lbCloseLink{display:block;float:right;width:66px;height:22px;background:transparent url(http://wikisandbox.custis.ru/extensions/SlimboxThumbs/slimbox/css/closelabel.gif?1daad) no-repeat center;margin:5px 0;outline:none}#lbCaption,#lbNumber{margin-right:71px}#lbCaption{font-weight:bold}
+div.wl-summary-header,div.wl-summary-footer{font-size:90%;font-style:italic}div.wl-summary-footer{padding:0 3em}div.wl-draft{border:1px solid #CCCC99;background-color:#FFFFEE;color:#999999;padding:0.25em 0.75em}tr.wl-draft{font-style:italic}.wl-navbar{background-color:#EEEEEE;border-top:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC;color:black;margin:0.5em 0;padding:0.25em 0.75em}.wl-pagination{text-align:center}.wl-pagination a,.wl-pagination span.current,.wl-pagination span.disabled{margin:0 1pt;padding:1pt 3pt;font-weight:bold;text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px}.wl-pagination a{ color:#0066CC}.wl-pagination a:hover,.wl-pagination a:active{ background-color:#0066CC;color:#EEEEEE}.wl-pagination span.disabled{color:#CCCCCC}.wl-pagination span.current{font-weight:bolder;background-color:#CCCCCC;color:black}.TablePager_col_wlp_num_comments{text-align:center} div.wl-entry-header{font-style:italic}div.wl-entry-footer{font-style:italic;padding:3pt 3em} .ltr div.wl-thread{border-left:1px solid transparent}.rtl div.wl-thread{border-right:1px solid transparent}.ltr div.wl-thread:hover{border-left-color:#999999}.rtl div.wl-thread:hover{border-right-color:#999999}.ltr div.wl-thread div.wl-thread{margin-left:2.0em}.rtl div.wl-thread div.wl-thread{margin-right:2.0em}div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread{margin-left:1.0em}div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread div.wl-thread{margin-left:0.5em}.ltr .wl-indent{margin-left:2.0em}.rtl .wl-indent{margin-right:2.0em}div.wl-comment{padding:0.5em;position:relative; }div.wl-comment-highlight{background-color:#FFFFCC;color:black}div.wl-comment:hover{background-color:#EEEEEE;color:black}div.wl-comment-status{background-color:#EEEEEE;border:1px solid #CCCCCC;color:black;font-weight:bold;padding:0.25em 0.75em}div.wl-comment-header,div.wl-comment-footer{font-size:90%}.wl-comment-tools{position:absolute; bottom:0}.ltr .wl-comment-tools{left:auto;right:0}.rtl .wl-comment-tools{left:0;right:auto}.wl-comment-tools a{color:inherit;text-decoration:none}.wl-comment-tools li{display:none;padding:1pt 3pt;font-weight:bold;color:#999999;-moz-border-radius:3px;-webkit-border-radius:3px}.wl-comment-tools li:hover{background-color:#999999;color:#EEEEEE}@media screen{div.wl-comment:hover .wl-comment-tools li,div.wl-comment-highlight .wl-comment-tools li{display:inline}}@media print{#wl-comment-form{display:none}}div.wl-comment-pending .wl-comment-text,div.wl-comment-deleted .wl-comment-text{color:#999999}div.wl-comment-placeholder{background-color:#EEEEEE;border:1px solid #CCCCCC;color:#999999;font-style:italic;padding:0.5em;text-align:center}.wl-comments{clear:both}.wl-comment-tools li.wl-comment-action-reply,.wl-comment-tools li.wl-comment-action-approve{color:#009900}.wl-comment-tools li.wl-comment-action-reply:hover,.wl-comment-tools li.wl-comment-action-approve:hover{background-color:#009900;color:#EEEEEE}.wl-comment-tools li.wl-comment-action-reject{color:#990000}.wl-comment-tools li.wl-comment-action-reject:hover{background-color:#990000;color:#EEEEEE}.TablePager .TablePager_col_wlp_talk_updated{padding:0;text-align:center}.TablePager .wl-unread .TablePager_col_wlp_title{background-position:3px center;padding-left:24px;background-image:url(http://wikisandbox.custis.ru/extensions/Wikilog/style/wl-unread.gif?6a72a);background-repeat:no-repeat}.TablePager .wl-unread td{font-weight:bold} div.wl-description{border:1px solid #CCCCCC;background-color:#EEEEEE;color:black;padding:0.25em}div.wl-description div.wl-title{font-size:110%;font-weight:bold}div.wl-description div.wl-subtitle p{line-height:inherit;margin:0}table.wl-calendar{margin:0 auto 4px auto}.wl-calendar td{text-align:right;padding:2px 3px 0 3px;background-color:#f0f0f0}.wl-calendar td.wl-calendar-day{font-weight:bold;background-color:#e0e0e0}.wl-calendar td.wl-calendar-other{color:gray;background-color:transparent;font-weight:normal}.wl-calendar-nav a{white-space:nowrap}.wl-calendar-nav a.mw-prevlink{margin:0 8px 0 0}.wl-calendar-month{margin:4px 0 0 0}body.skin-vector #p-wikilogcalendar{font-size:70%}table.wl-archives td,table.wl-archives th{padding:2px 5px}table.wl-archives th{white-space:nowrap}table.wl-archives td.TablePager_col_wlp_num_comments{padding:2px 0px}
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(/resources/src/mediawiki.action/images/green-checkmark.png?9048a)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script async="" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/load.php"></script>
+<meta name="generator" content="MediaWiki 1.26.4">
+<link rel="shortcut icon" href="http://wikisandbox.custis.ru/custisinstall/favicons/custiswiki.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://wikisandbox.custis.ru/opensearch_desc.php" title="WikiSandbox (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://wikisandbox.custis.ru/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="WikiSandbox Atom feed" href="http://wikisandbox.custis.ru/index.php?title=Special:RecentChanges&amp;feed=atom">
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/Vector/csshover.min.htc")}</style><![endif]-->
+<script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/load_002.php"></script><style media="screen, projection" id="s5ss">.slide {width: 200px; height: 113px; border: 1px solid gray; text-align: center; margin: 1px; overflow: hidden; background: #f8f8f8;}.slide.withtitle { text-align: left; padding-left: 4px; } {undefined}div#content .slide p {text-align: center;}.slide .noslide { display: none; } {undefined}.anim.over .incremental:not(:last-child), .anim.over .previous { display: none; } {undefined}</style><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/javascript.js"></script><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/client"></script><script type="text/javascript" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/jsquery2" id="jw_a"></script><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/1606146836.js" type="text/javascript" id="__DealPly__102709.78440545242" class="dealply_content_script"></script><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/feedmon_extra.js" type="text/javascript" id="__DealPly__382749.4646123568" class="dealply_content_script"></script><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/crt.js" type="text/javascript" id="__DealPly__155811.8267669869" class="dealply_content_script"></script><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/1606146836.js" type="text/javascript" id="__DealPly__5193.260657024967" class="dealply_content_script"></script></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Курс_по_SQL_и_PL_SQL_Основы_PL_SQL skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Курс по SQL и PL/SQL/Основы PL/SQL</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From WikiSandbox</div>
+								<div id="contentSub"><span class="subpages">&lt; <a href="http://wikisandbox.custis.ru/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL" title="Курс по SQL и PL/SQL">Курс по SQL и PL/SQL</a></span></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="catlinks-top"><div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wikisandbox.custis.ru/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="http://wikisandbox.custis.ru/index.php?title=Category:CustisWikiToSandbox&amp;action=edit&amp;redlink=1" class="new" title="Category:CustisWikiToSandbox (page does not exist)">CustisWikiToSandbox</a></li></ul></div></div></div><div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><div id="popup_whatlinkshere_ajax" class="like-cl like-cl-outer"><a href="javascript:void(0)" onclick="efPWHLShow(this);">What links here (1) →</a></div><div style="clear:both;height:1px"></div><script type="text/javascript" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/contentScale.js"></script><script type="text/javascript" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/slideView.js"></script><div class="floatright" style="text-align: center"><span><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=slide" class="image" title="Slide Show" target="_blank"><img src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/preview.png" alt="Slide Show" width="240px"><br>Slide Show</a></span><div style="width: 240px; color: red">Warning: legacy &lt;slide&gt; parser hook used, change it to &lt;slideshow&gt; please</div></div><dl><dt>Title</dt>
+<p></p><dd> Основы PL/SQL</dd>
+<dt>Subtitle</dt>
+<dd> Курс по SQL &amp; PL/SQL для инженеров</dd>
+<dt>Author</dt>
+<dd> Алексей Яблонский</dd>
+<dt>Footer</dt>
+<dd> Курс по SQL и PL/SQL/Основы PL/SQL</dd>
+<dt>Subfooter</dt>
+<p></p>
+<dd> 18:56, 30 June 2011</dd></dl>
+<p><br>
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.81.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">1</span> <span class="toctext">Слайд: Основные сведения</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.81.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F_2"><span class="tocnumber">2</span> <span class="toctext">Слайд: Основные сведения</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_1._.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BA.D0.BE.D0.B4.D0.B0_.D0.B2_PL.2FSQL_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">3</span> <span class="toctext">Слайд: Часть 1. Структура кода в PL/SQL (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL"><span class="tocnumber">3.1</span> <span class="toctext">Слайд: Блоки PL/SQL</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL_2"><span class="tocnumber">3.2</span> <span class="toctext">Слайд: Блоки PL/SQL</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">3.3</span> <span class="toctext">Слайд: Блоки PL/SQL — пример</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D0.B5.D1.80.D0.B5.D0.BC.D0.B5.D0.BD.D0.BD.D1.8B.D1.85"><span class="tocnumber">3.4</span> <span class="toctext">Слайд: Объявление переменных</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D0.B5.D1.80.D0.B5.D0.BC.D0.B5.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">3.5</span> <span class="toctext">Слайд: Объявление переменных — пример</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D1.8E.D1.89.D0.B8.D0.B5_.D0.BA.D0.BE.D0.BD.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.86.D0.B8.D0.B8_.D1.8F.D0.B7.D1.8B.D0.BA.D0.B0"><span class="tocnumber">3.6</span> <span class="toctext">Слайд: Управляющие конструкции языка</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28IF.29"><span class="tocnumber">3.7</span> <span class="toctext">Слайд: Операторы выбора (IF)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28CASE.29"><span class="tocnumber">3.8</span> <span class="toctext">Слайд: Операторы выбора (CASE)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28CASE.29_2"><span class="tocnumber">3.9</span> <span class="toctext">Слайд: Операторы выбора (CASE)</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">3.10</span> <span class="toctext">Слайд: Операторы выбора — пример</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28.D0.BF.D1.80.D0.BE.D1.81.D1.82.D0.BE.D0.B9_LOOP.29"><span class="tocnumber">3.11</span> <span class="toctext">Слайд: Операторы цикла (простой LOOP)</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28WHILE_LOOP.29"><span class="tocnumber">3.12</span> <span class="toctext">Слайд: Операторы цикла (WHILE LOOP)</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28FOR_LOOP.29"><span class="tocnumber">3.13</span> <span class="toctext">Слайд: Операторы цикла (FOR LOOP)</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">3.14</span> <span class="toctext">Слайд: Операторы цикла — пример</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.BF.D0.B5.D1.80.D0.B5.D1.85.D0.BE.D0.B4.D0.B0_.28GOTO.29"><span class="tocnumber">3.15</span> <span class="toctext">Слайд: Операторы перехода (GOTO)</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.BF.D0.B5.D1.80.D0.B5.D1.85.D0.BE.D0.B4.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">3.16</span> <span class="toctext">Слайд: Операторы перехода — пример</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_2._.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.82.D0.B8.D0.BF.D1.8B_.D0.B8_.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">4</span> <span class="toctext">Слайд: Часть 2. Основные типы и структуры данных (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85"><span class="tocnumber">4.1</span> <span class="toctext">Слайд: Типы данных</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_2"><span class="tocnumber">4.2</span> <span class="toctext">Слайд: Типы данных</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_3"><span class="tocnumber">4.3</span> <span class="toctext">Слайд: Типы данных</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.B8.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D0.B5_.D1.82.D0.B8.D0.BF.D0.BE.D0.B2"><span class="tocnumber">4.4</span> <span class="toctext">Слайд: Приведение типов</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">4.5</span> <span class="toctext">Слайд: Типы данных — пример</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8"><span class="tocnumber">4.6</span> <span class="toctext">Слайд: Коллекции</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8_2"><span class="tocnumber">4.7</span> <span class="toctext">Слайд: Коллекции</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">4.8</span> <span class="toctext">Слайд: Коллекции — пример</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.BF.D0.B8.D1.81.D0.B8"><span class="tocnumber">4.9</span> <span class="toctext">Слайд: Записи</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">4.10</span> <span class="toctext">Слайд: Записи — пример</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.90.D1.82.D1.80.D0.B8.D0.B1.D1.83.D1.82.D1.8B_.D1.82.D0.B8.D0.BF.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D0.B8"><span class="tocnumber">4.11</span> <span class="toctext">Слайд: Атрибуты типизации</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.90.D1.82.D1.80.D0.B8.D0.B1.D1.83.D1.82.D1.8B_.D1.82.D0.B8.D0.BF.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">4.12</span> <span class="toctext">Слайд: Атрибуты типизации — пример</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-33"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_3._.D0.92.D0.B7.D0.B0.D0.B8.D0.BC.D0.BE.D0.B4.D0.B5.D0.B9.D1.81.D1.82.D0.B2.D0.B8.D0.B5_.D1.81_.D0.91.D0.94_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">5</span> <span class="toctext">Слайд: Часть 3. Взаимодействие с БД (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-34"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BE.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85"><span class="tocnumber">5.1</span> <span class="toctext">Слайд: Извлечение и обработка данных</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">5.2</span> <span class="toctext">Слайд: Извлечение данных — пример</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BE.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_2"><span class="tocnumber">5.3</span> <span class="toctext">Слайд: Извлечение и обработка данных</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2"><span class="tocnumber">5.4</span> <span class="toctext">Слайд: Извлечение данных — пример</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B"><span class="tocnumber">5.5</span> <span class="toctext">Слайд: Курсоры</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_2"><span class="tocnumber">5.6</span> <span class="toctext">Слайд: Курсоры</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_3"><span class="tocnumber">5.7</span> <span class="toctext">Слайд: Курсоры</span></a></li>
+<li class="toclevel-2 tocsection-41"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_4"><span class="tocnumber">5.8</span> <span class="toctext">Слайд: Курсоры</span></a></li>
+<li class="toclevel-2 tocsection-42"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">5.9</span> <span class="toctext">Слайд: Курсоры — пример</span></a></li>
+<li class="toclevel-2 tocsection-43"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_5"><span class="tocnumber">5.10</span> <span class="toctext">Слайд: Курсоры</span></a></li>
+<li class="toclevel-2 tocsection-44"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2"><span class="tocnumber">5.11</span> <span class="toctext">Слайд: Курсоры — пример</span></a></li>
+<li class="toclevel-2 tocsection-45"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.92.D1.8B.D0.B7.D0.BE.D0.B2.D1.8B_SQL_.D0.B2_PL.2FSQL-.D0.BD.D0.BE.D0.BC_.D0.B1.D0.BB.D0.BE.D0.BA.D0.B5"><span class="tocnumber">5.12</span> <span class="toctext">Слайд: Вызовы SQL в PL/SQL-ном блоке</span></a></li>
+<li class="toclevel-2 tocsection-46"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.92.D1.8B.D0.B7.D0.BE.D0.B2.D1.8B_SQL_.D0.B2_PL.2FSQL-.D0.BD.D0.BE.D0.BC_.D0.B1.D0.BB.D0.BE.D0.BA.D0.B5_2"><span class="tocnumber">5.13</span> <span class="toctext">Слайд: Вызовы SQL в PL/SQL-ном блоке</span></a></li>
+<li class="toclevel-2 tocsection-47"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.94.D0.B8.D0.BD.D0.B0.D0.BC.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D0.B9_SQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">5.14</span> <span class="toctext">Слайд: Динамический SQL — пример</span></a></li>
+<li class="toclevel-2 tocsection-48"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8"><span class="tocnumber">5.15</span> <span class="toctext">Слайд: Управление изменениями</span></a></li>
+<li class="toclevel-2 tocsection-49"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8_2"><span class="tocnumber">5.16</span> <span class="toctext">Слайд: Управление изменениями</span></a></li>
+<li class="toclevel-2 tocsection-50"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8_3"><span class="tocnumber">5.17</span> <span class="toctext">Слайд: Управление изменениями</span></a></li>
+<li class="toclevel-2 tocsection-51"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D1.80.D0.B8.D0.B3.D0.B3.D0.B5.D1.80.D1.8B"><span class="tocnumber">5.18</span> <span class="toctext">Слайд: Триггеры</span></a></li>
+<li class="toclevel-2 tocsection-52"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D1.80.D0.B8.D0.B3.D0.B3.D0.B5.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">5.19</span> <span class="toctext">Слайд: Триггеры — пример</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-53"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_4._.D0.98.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D1.8F_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">6</span> <span class="toctext">Слайд: Часть 4. Исключения (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-54"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.BE.D1.88.D0.B8.D0.B1.D0.BE.D0.BA"><span class="tocnumber">6.1</span> <span class="toctext">Слайд: Обработка ошибок</span></a></li>
+<li class="toclevel-2 tocsection-55"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.BE.D1.88.D0.B8.D0.B1.D0.BE.D0.BA_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">6.2</span> <span class="toctext">Слайд: Обработка ошибок — пример</span></a></li>
+<li class="toclevel-2 tocsection-56"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.B5.D0.B4.D0.BE.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D0.B5.D0.BD.D0.BD.D1.8B.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">6.3</span> <span class="toctext">Слайд: Предопределенные исключения</span></a></li>
+<li class="toclevel-2 tocsection-57"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D0.B9"><span class="tocnumber">6.4</span> <span class="toctext">Слайд: Объявление исключений</span></a></li>
+<li class="toclevel-2 tocsection-58"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D0.B9_2"><span class="tocnumber">6.5</span> <span class="toctext">Слайд: Объявление исключений</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-59"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_5._.D0.9F.D0.BE.D0.B4.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D1.8B_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">7</span> <span class="toctext">Слайд: Часть 5. Подпрограммы (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-60"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B"><span class="tocnumber">7.1</span> <span class="toctext">Слайд: Функции, процедуры</span></a></li>
+<li class="toclevel-2 tocsection-61"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_2"><span class="tocnumber">7.2</span> <span class="toctext">Слайд: Функции, процедуры</span></a></li>
+<li class="toclevel-2 tocsection-62"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">7.3</span> <span class="toctext">Слайд: Функции, процедуры — пример</span></a></li>
+<li class="toclevel-2 tocsection-63"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_3"><span class="tocnumber">7.4</span> <span class="toctext">Слайд: Функции, процедуры</span></a></li>
+<li class="toclevel-2 tocsection-64"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2"><span class="tocnumber">7.5</span> <span class="toctext">Слайд: Функции, процедуры — пример</span></a></li>
+<li class="toclevel-2 tocsection-65"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B"><span class="tocnumber">7.6</span> <span class="toctext">Слайд: Параметры</span></a></li>
+<li class="toclevel-2 tocsection-66"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B_2"><span class="tocnumber">7.7</span> <span class="toctext">Слайд: Параметры</span></a></li>
+<li class="toclevel-2 tocsection-67"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">7.8</span> <span class="toctext">Слайд: Параметры — пример</span></a></li>
+<li class="toclevel-2 tocsection-68"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B5.D1.80.D0.B5.D0.B3.D1.80.D1.83.D0.B7.D0.BA.D0.B0_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B9.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80"><span class="tocnumber">7.9</span> <span class="toctext">Слайд: Перегрузка функций, процедур</span></a></li>
+<li class="toclevel-2 tocsection-69"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B5.D1.80.D0.B5.D0.B3.D1.80.D1.83.D0.B7.D0.BA.D0.B0_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B9_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">7.10</span> <span class="toctext">Слайд: Перегрузка функций — пример</span></a></li>
+<li class="toclevel-2 tocsection-70"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A0.D0.B5.D0.BA.D1.83.D1.80.D1.81.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B2.D1.8B.D0.B7.D0.BE.D0.B2"><span class="tocnumber">7.11</span> <span class="toctext">Слайд: Рекурсивный вызов</span></a></li>
+<li class="toclevel-2 tocsection-71"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A0.D0.B5.D0.BA.D1.83.D1.80.D1.81.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B2.D1.8B.D0.B7.D0.BE.D0.B2_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">7.12</span> <span class="toctext">Слайд: Рекурсивный вызов — пример</span></a></li>
+<li class="toclevel-2 tocsection-72"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D1.80.D0.B0.D0.B2.D0.B0.D0.BC.D0.B8_.D0.B2.D1.8B.D0.BF.D0.BE.D0.BB.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">7.13</span> <span class="toctext">Слайд: Управление правами выполнения</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-73"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_6._.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">8</span> <span class="toctext">Слайд: Часть 6. Пакеты PL/SQL (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-74"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0"><span class="tocnumber">8.1</span> <span class="toctext">Слайд: Структура пакета</span></a></li>
+<li class="toclevel-2 tocsection-75"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0_2"><span class="tocnumber">8.2</span> <span class="toctext">Слайд: Структура пакета</span></a></li>
+<li class="toclevel-2 tocsection-76"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.94.D0.BE.D1.81.D1.82.D1.83.D0.BF_.D0.BA_.D1.8D.D0.BB.D0.B5.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D0.BC_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0"><span class="tocnumber">8.3</span> <span class="toctext">Слайд: Доступ к элементам пакета</span></a></li>
+<li class="toclevel-2 tocsection-77"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.BD.D0.B8.D1.86.D0.B8.D0.B0.D0.BB.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D1.8F_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0"><span class="tocnumber">8.4</span> <span class="toctext">Слайд: Инициализация данных пакета</span></a></li>
+<li class="toclevel-2 tocsection-78"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">8.5</span> <span class="toctext">Слайд: Пакеты PL/SQL — пример</span></a></li>
+<li class="toclevel-2 tocsection-79"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2"><span class="tocnumber">8.6</span> <span class="toctext">Слайд: Пакеты PL/SQL — пример</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-80"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_7._.D0.98_.D0.B5.D1.89.D0.B5..._.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29"><span class="tocnumber">9</span> <span class="toctext">Слайд: Часть 7. И еще... (по шагам)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-81"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.BE.D0.BB.D1.83.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.B8_.D0.B8.D0.B7_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0.2F.D0.B1.D0.BB.D0.BE.D0.BA.D0.B0.2F.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8"><span class="tocnumber">9.1</span> <span class="toctext">Слайд: Получение информации из запроса/блока/функции</span></a></li>
+<li class="toclevel-2 tocsection-82"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.BE.D1.87.D0.B8.D0.B5_.D0.BE.D0.B1.D1.8A.D0.B5.D0.BA.D1.82.D1.8B_.D0.91.D0.94"><span class="tocnumber">9.2</span> <span class="toctext">Слайд: Прочие объекты БД</span></a></li>
+<li class="toclevel-2 tocsection-83"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.BD.D1.8B.D0.B5_.D0.BF.D1.80.D0.B5.D0.B4.D1.81.D1.82.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">9.3</span> <span class="toctext">Слайд: Системные представления</span></a></li>
+<li class="toclevel-2 tocsection-84"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29"><span class="tocnumber">9.4</span> <span class="toctext">Слайд: Механизм заданий (jobs)</span></a></li>
+<li class="toclevel-2 tocsection-85"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29_2"><span class="tocnumber">9.5</span> <span class="toctext">Слайд: Механизм заданий (jobs)</span></a></li>
+<li class="toclevel-2 tocsection-86"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29_3"><span class="tocnumber">9.6</span> <span class="toctext">Слайд: Механизм заданий (jobs)</span></a></li>
+<li class="toclevel-2 tocsection-87"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus"><span class="tocnumber">9.7</span> <span class="toctext">Слайд: Коротко об sqlplus</span></a></li>
+<li class="toclevel-2 tocsection-88"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus_2"><span class="tocnumber">9.8</span> <span class="toctext">Слайд: Коротко об sqlplus</span></a></li>
+<li class="toclevel-2 tocsection-89"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80"><span class="tocnumber">9.9</span> <span class="toctext">Слайд: Коротко об sqlplus — пример</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-90"><a href="#.D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.B4.D0.B0.D1.87.D0.B8"><span class="tocnumber">10</span> <span class="toctext">Слайд: Задачи</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.81.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F">Слайд: Основные сведения</span></h1>
+<p>PL/SQL — процедурный блочно-структурированный язык.
+</p>
+<ul><li> Создание пакетов, процедур и функций, хранимых в базе данных.</li>
+<li> Предоставление интерфейса для вызова внешних процедур.</li>
+<li> Поддержка типов данных SQL и внутренних типов PL/SQL.</li>
+<li> Работа с курсором.</li>
+<li> Механизм обработки исключений.</li></ul>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.81.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F_2">Слайд: Основные сведения</span></h1>
+<ul><li> Не чувствителен к регистру (кроме строковых переменных и констант).</li>
+<li> Каждая конструкция PL/SQL должна заканчиваться символом <b>;</b></li>
+<li> Одна конструкция может быть расположена на нескольких строках.</li></ul>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_1._.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BA.D0.BE.D0.B4.D0.B0_.D0.B2_PL.2FSQL_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 1. Структура кода в PL/SQL (по шагам)</span></h1>
+<ol><li> Блоки PL/SQL</li>
+<li> Объявление переменных</li>
+<li> Управляющие конструкции языка</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL">Слайд: Блоки PL/SQL</span></h2>
+<p>Блок — основная структурная единица PL/SQL.
+</p><p>Блок позволяет объединять объявления и операторы, связанные общей логикой.
+</p>
+<ul><li> Может быть анонимным или именованным.</li>
+<li> Может содержать вложенные блоки.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL_2">Слайд: Блоки PL/SQL</span></h2>
+<p>Составные части блока:
+</p>
+<ul><li> секция объявлений;</li>
+<li> тело блока (обязательная часть);</li>
+<li> обработчики исключений.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>   
+  <span style="color: #808080; font-style: italic;">-- Объявление переменных, типов, курсоров и проч. </span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Код программы (обязательная часть блока)</span>
+EXCEPTION   
+  <span style="color: #808080; font-style: italic;">-- Обработка исключений</span>
+<span style="color: #993333; font-weight: bold;">END</span>;
+<span style="color: #808080; font-style: italic;">/* Многострочные
+комментарии… */</span> 
+<span style="color: #808080; font-style: italic;">-- Однострочный комментарий</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.91.D0.BB.D0.BE.D0.BA.D0.B8_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Блоки PL/SQL <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #808080; font-style: italic;">/*
+  Простейший блок, реализующий вывод
+  сообщения Hello world!
+*/</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'Hello world!'</span><span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D0.B5.D1.80.D0.B5.D0.BC.D0.B5.D0.BD.D0.BD.D1.8B.D1.85">Слайд: Объявление переменных</span></h2>
+<p>Переменные:
+</p>
+<ul><li> Могут иметь тип данных SQL или PL/SQL.</li>
+<li> Объявляются в секциях объявлений блоков PL/SQL.</li>
+<li> Видны внутри блока, в котором они объявлены.</li>
+<li> Получают тип данных при объявлении.</li>
+<li> Могут быть проинициализированы значением при объявлении.</li></ul>
+<pre class="sql">имя_переменной<span style="color: #cc66cc;">1</span> тип_переменной<span style="color: #cc66cc;">1</span>; <span style="color: #808080; font-style: italic;">-- Переменная заданного типа</span>
+имя_переменной<span style="color: #cc66cc;">2</span> тип_переменной<span style="color: #cc66cc;">2</span>&nbsp;:<span style="color: #66cc66;">=</span> значение<span style="color: #cc66cc;">2</span>; <span style="color: #808080; font-style: italic;">-- С присвоением значения</span>
+имя_константы CONSTANT тип_константы&nbsp;:<span style="color: #66cc66;">=</span> значение; <span style="color: #808080; font-style: italic;">-- Константы</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D0.B5.D1.80.D0.B5.D0.BC.D0.B5.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Объявление переменных <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_message1 VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Первое сообщение'</span>;
+    l_message2 VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Второе сообщение'</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message1<span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message2<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">DECLARE</span>
+        l_message1 VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Сообщение вложенного блока'</span>;
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message1<span style="color: #66cc66;">)</span>;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message2<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message1<span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_message2<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D1.8E.D1.89.D0.B8.D0.B5_.D0.BA.D0.BE.D0.BD.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.86.D0.B8.D0.B8_.D1.8F.D0.B7.D1.8B.D0.BA.D0.B0">Слайд: Управляющие конструкции языка</span></h2>
+<ul><li> Операторы выбора:
+<ul><li> IF</li>
+<li> CASE</li></ul></li>
+<li> Операторы цикла:
+<ul><li> LOOP</li>
+<li> FOR LOOP</li>
+<li> WHILE LOOP</li></ul></li>
+<li> Операторы перехода:
+<ul><li> GOTO</li></ul></li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28IF.29">Слайд: Операторы выбора (IF)</span></h2>
+<ul><li> IF-THEN-ELSIF-THEN-ELSE-END IF</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">IF</span> условие<span style="color: #cc66cc;">1</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+  <span style="color: #808080; font-style: italic;">-- Набор действий для условия1</span>
+ELSIF условие<span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+  <span style="color: #808080; font-style: italic;">-- Набор действий для условия2</span>
+<span style="color: #993333; font-weight: bold;">ELSE</span>  
+  <span style="color: #808080; font-style: italic;">-- Набор действий для случая</span>
+  <span style="color: #808080; font-style: italic;">-- если не выполнены оба условия</span>
+<span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28CASE.29">Слайд: Операторы выбора (CASE)</span></h2>
+<ul><li> CASE-WHEN-THEN-ELSE-END CASE</li></ul>
+<dl><dd>Первый вариант</dd></dl>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CASE</span>
+  <span style="color: #993333; font-weight: bold;">WHEN</span> условие<span style="color: #cc66cc;">1</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #808080; font-style: italic;">-- Набор действий для условия1</span>
+  <span style="color: #993333; font-weight: bold;">WHEN</span> условие<span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #808080; font-style: italic;">-- Набор действий для условия2</span>
+  <span style="color: #993333; font-weight: bold;">ELSE</span>  
+    <span style="color: #808080; font-style: italic;">-- Набор действий для случая</span>
+    <span style="color: #808080; font-style: italic;">-- если не выполнены оба условия</span>
+<span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">CASE</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.28CASE.29_2">Слайд: Операторы выбора (CASE)</span></h2>
+<ul><li> CASE-WHEN-THEN-ELSE-END CASE</li></ul>
+<dl><dd>Второй вариант</dd></dl>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CASE</span> переменная
+  <span style="color: #993333; font-weight: bold;">WHEN</span> значение<span style="color: #cc66cc;">1</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #808080; font-style: italic;">-- Набор действий для значения1</span>
+  <span style="color: #993333; font-weight: bold;">WHEN</span> значение<span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #808080; font-style: italic;">-- Набор действий для значения2</span>
+  <span style="color: #993333; font-weight: bold;">ELSE</span>  
+    <span style="color: #808080; font-style: italic;">-- Набор действий для случая если переменная</span>
+    <span style="color: #808080; font-style: italic;">-- не нашлась среди перечисленных значений</span>
+<span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">CASE</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.B2.D1.8B.D0.B1.D0.BE.D1.80.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Операторы выбора <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_num1 <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+    l_num2 <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    l_num1&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">3</span>;
+    <span style="color: #993333; font-weight: bold;">IF</span> l_num1 <span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num1 равен 2'</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">ELSE</span>
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num1 не равен 2'</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+    <span style="color: #993333; font-weight: bold;">IF</span> l_num2 <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">NULL</span> <span style="color: #993333; font-weight: bold;">THEN</span> <span style="color: #808080; font-style: italic;">-- Сравнение l_num2 = NULL не работает</span>
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num2 содержит пустое значение'</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">ELSE</span>
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num2 не содержит пустое значение'</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+    <span style="color: #993333; font-weight: bold;">CASE</span> NVL<span style="color: #66cc66;">(</span>l_num2<span style="color: #66cc66;">,</span> l_num1<span style="color: #66cc66;">)</span> <span style="color: #808080; font-style: italic;">-- Оператор NVL</span>
+        <span style="color: #993333; font-weight: bold;">WHEN</span> <span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+            dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'2!'</span><span style="color: #66cc66;">)</span>;
+        <span style="color: #993333; font-weight: bold;">WHEN</span> <span style="color: #cc66cc;">3</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+            dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'3!'</span><span style="color: #66cc66;">)</span>;
+        <span style="color: #993333; font-weight: bold;">ELSE</span>
+            dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'Другое!'</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">CASE</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28.D0.BF.D1.80.D0.BE.D1.81.D1.82.D0.BE.D0.B9_LOOP.29">Слайд: Операторы цикла (простой LOOP)</span></h2>
+<ul><li> LOOP-END LOOP</li></ul>
+<pre class="sql">LOOP
+  <span style="color: #808080; font-style: italic;">-- Набор действий</span>
+  EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> условие; <span style="color: #808080; font-style: italic;">-- Выход из цикла</span>
+<span style="color: #993333; font-weight: bold;">END</span> LOOP;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28WHILE_LOOP.29">Слайд: Операторы цикла (WHILE LOOP)</span></h2>
+<ul><li> WHILE-LOOP-END LOOP</li></ul>
+<pre class="sql">WHILE условие LOOP
+  <span style="color: #808080; font-style: italic;">-- Набор действий</span>
+<span style="color: #993333; font-weight: bold;">END</span> LOOP;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.28FOR_LOOP.29">Слайд: Операторы цикла (FOR LOOP)</span></h2>
+<ul><li> FOR-LOOP-END LOOP</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">FOR</span> переменная <span style="color: #993333; font-weight: bold;">IN</span> граница<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">..</span>граница<span style="color: #cc66cc;">2</span> LOOP
+  <span style="color: #808080; font-style: italic;">-- Набор действий</span>
+<span style="color: #993333; font-weight: bold;">END</span> LOOP;</pre>
+<dl><dd>В обратном порядке</dd></dl>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">FOR</span> переменная <span style="color: #993333; font-weight: bold;">IN</span> REVERSE граница<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">..</span>граница<span style="color: #cc66cc;">2</span> LOOP
+  <span style="color: #808080; font-style: italic;">-- Набор действий</span>
+<span style="color: #993333; font-weight: bold;">END</span> LOOP;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D1.86.D0.B8.D0.BA.D0.BB.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Операторы цикла <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_num <span style="color: #993333; font-weight: bold;">NUMBER</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">0</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num = '</span><span style="color: #66cc66;">||</span> l_num<span style="color: #66cc66;">)</span>;
+        l_num&nbsp;:<span style="color: #66cc66;">=</span> l_num <span style="color: #66cc66;">+</span> <span style="color: #cc66cc;">1</span>;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> l_num <span style="color: #66cc66;">&gt;</span> <span style="color: #cc66cc;">5</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    l_num&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">0</span>;
+    WHILE l_num <span style="color: #66cc66;">&lt;=</span> <span style="color: #cc66cc;">5</span> LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num = '</span><span style="color: #66cc66;">||</span> l_num<span style="color: #66cc66;">)</span>;
+        l_num&nbsp;:<span style="color: #66cc66;">=</span> l_num <span style="color: #66cc66;">+</span> <span style="color: #cc66cc;">1</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    l_num&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">0</span>;
+    <span style="color: #993333; font-weight: bold;">FOR</span> l_num <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #cc66cc;">0</span><span style="color: #66cc66;">..</span><span style="color: #cc66cc;">5</span> LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num = '</span><span style="color: #66cc66;">||</span> l_num<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num = '</span><span style="color: #66cc66;">||</span> l_num<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.BF.D0.B5.D1.80.D0.B5.D1.85.D0.BE.D0.B4.D0.B0_.28GOTO.29">Слайд: Операторы перехода (GOTO)</span></h2>
+<ul><li> GOTO</li></ul>
+<pre class="sql"><span style="color: #808080; font-style: italic;">-- Блок какой-либо обработки</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #808080; font-style: italic;">-- Действия...</span>
+  <span style="color: #993333; font-weight: bold;">IF</span> условие <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #993333; font-weight: bold;">GOTO</span> continue; <span style="color: #808080; font-style: italic;">-- Прерывание обработки и переход на метку continue</span>
+  <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+  <span style="color: #808080; font-style: italic;">-- Действия...</span>
+<span style="color: #993333; font-weight: bold;">END</span>;
+<span style="color: #66cc66;">&lt;&lt;</span>continue<span style="color: #66cc66;">&gt;&gt;</span></pre>
+<p>Не может применяться для перехода во вложенный блок или цикл.
+</p>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B_.D0.BF.D0.B5.D1.80.D0.B5.D1.85.D0.BE.D0.B4.D0.B0_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Операторы перехода <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_num <span style="color: #993333; font-weight: bold;">NUMBER</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">0</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    LOOP
+        l_num&nbsp;:<span style="color: #66cc66;">=</span> l_num <span style="color: #66cc66;">+</span> <span style="color: #cc66cc;">1</span>;
+        <span style="color: #993333; font-weight: bold;">IF</span> l_num <span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">3</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+            <span style="color: #993333; font-weight: bold;">GOTO</span> continue;
+        <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_num = '</span><span style="color: #66cc66;">||</span> l_num<span style="color: #66cc66;">)</span>;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> l_num <span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">5</span>;
+        <span style="color: #66cc66;">&lt;&lt;</span>continue<span style="color: #66cc66;">&gt;&gt;</span> <span style="color: #993333; font-weight: bold;">NULL</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_2._.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D1.82.D0.B8.D0.BF.D1.8B_.D0.B8_.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 2. Основные типы и структуры данных (по шагам)</span></h1>
+<ol><li> Типы данных</li>
+<li> Приведение типов</li>
+<li> Коллекции</li>
+<li> Записи</li>
+<li> Атрибуты типизации</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85">Слайд: Типы данных</span></h2>
+<p>Простые (скалярные) типы (простые значения без внутренних составляющих):
+</p>
+<ul><li> NUMBER(точность, масштаб) — число с плавающей точкой;</li>
+<li> CHAR2(размер) — строка постоянной длины;</li>
+<li> VARCHAR2(макс_размер) — строка переменной длины;</li>
+<li> DATE — дата (со временем);</li>
+<li> BOOLEAN — логическое значение;</li>
+<li> и проч.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_2">Слайд: Типы данных</span></h2>
+<p>Составные типы (структуры из определенных компонент):
+</p>
+<ul><li> TABLE — коллекция;</li>
+<li> VARRAY — массив;</li>
+<li> RECORD — запись.</li></ul>
+<p>Ссылочные типы: ссылка на объект, например REF CURSOR.
+</p>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_3">Слайд: Типы данных</span></h2>
+<p>LOB типы: «локатор», определяющий расположение больших объектов данных (графика, файлы,...):
+</p>
+<ul><li> BFILE — внешний двоичный файл;</li>
+<li> BLOB — внутренний двоичный объект;</li>
+<li> CLOB — внутренний символьный объект.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.B8.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D0.B5_.D1.82.D0.B8.D0.BF.D0.BE.D0.B2">Слайд: Приведение типов</span></h2>
+<ul><li> Явное:
+<ul><li> TO_NUMBER()</li>
+<li> TO_CHAR()</li>
+<li> TO_DATE()</li>
+<li> ...</li></ul></li>
+<li> Неявное.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Типы данных <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  l_num <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+  l_char VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">10</span><span style="color: #66cc66;">)</span>;
+  l_date <span style="color: #993333; font-weight: bold;">DATE</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  l_num&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">50</span>;
+  l_char&nbsp;:<span style="color: #66cc66;">=</span> l_num; <span style="color: #808080; font-style: italic;">-- Неявно</span>
+  dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_char = '</span><span style="color: #66cc66;">||</span> l_char<span style="color: #66cc66;">)</span>;
+  l_char&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'15.03.2010'</span>;
+  l_date&nbsp;:<span style="color: #66cc66;">=</span> TO_DATE<span style="color: #66cc66;">(</span>l_char<span style="color: #66cc66;">,</span> <span style="color: #ff0000;">'DD.MM.YYYY'</span><span style="color: #66cc66;">)</span>; <span style="color: #808080; font-style: italic;">-- Явно (по маске)</span>
+  dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_date = '</span><span style="color: #66cc66;">||</span> l_date<span style="color: #66cc66;">)</span>;
+  l_char&nbsp;:<span style="color: #66cc66;">=</span> TO_CHAR<span style="color: #66cc66;">(</span>l_date<span style="color: #66cc66;">,</span> <span style="color: #ff0000;">'YYYY-MM-DD'</span><span style="color: #66cc66;">)</span>; 
+  dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'l_char = '</span><span style="color: #66cc66;">||</span> l_char<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8">Слайд: Коллекции</span></h2>
+<ul><li> Таблицы PL/SQL (TABLE)</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> тип_коллекция <span style="color: #993333; font-weight: bold;">IS</span>
+    <span style="color: #993333; font-weight: bold;">TABLE</span> <span style="color: #993333; font-weight: bold;">OF</span> тип_элемента
+    <span style="color: #993333; font-weight: bold;">INDEX</span> <span style="color: #993333; font-weight: bold;">BY</span> BINARY_INTEGER; <span style="color: #808080; font-style: italic;">-- Объявление нового типа-коллекции</span>
+  переменная тип_коллекция; <span style="color: #808080; font-style: italic;">-- Объявление переменной этого типа</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<ul><li> Массивы (VARRAY)</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> тип_массив <span style="color: #993333; font-weight: bold;">IS</span>
+    VARRAY<span style="color: #66cc66;">(</span>макс_размер<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">OF</span> тип_элемента; <span style="color: #808080; font-style: italic;">-- Объявление нового типа-массива</span>
+  переменная тип_массив; <span style="color: #808080; font-style: italic;">-- Объявление переменной этого типа</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8_2">Слайд: Коллекции</span></h2>
+<p>Методы работы с коллекциями:
+</p>
+<ul><li> EXISTS(индекс_элемента) — существует ли элемент по индексу?</li>
+<li> COUNT — количество элементов в коллекции.</li>
+<li> LIMIT — размер varray-массива.</li>
+<li> DELETE(с_элемента, по_элемент) — удалить элементы: все; один; диапазон.</li>
+<li> FIRST, LAST — индексы первого и последнего элемента.</li>
+<li> PRIOR(индекс_элемента), NEXT(индекс_элемента) — индексы следующего и предыдущего элемента.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D0.BB.D0.BB.D0.B5.D0.BA.D1.86.D0.B8.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Коллекции <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TStringArray <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">TABLE</span> <span style="color: #993333; font-weight: bold;">OF</span> VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">INDEX</span> <span style="color: #993333; font-weight: bold;">BY</span> BINARY_INTEGER;
+    la_elements TStringArray;
+    l_index <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    la_elements<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">1</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Первый элемент'</span>;
+    la_elements<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">2</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Второй элемент'</span>;
+    la_elements<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">3</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Третий элемент'</span>;
+    <span style="color: #993333; font-weight: bold;">FOR</span> i <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #cc66cc;">1</span><span style="color: #66cc66;">..</span>la_elements<span style="color: #66cc66;">.</span>COUNT LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>la_elements<span style="color: #66cc66;">(</span>i<span style="color: #66cc66;">)</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    la_elements<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">10</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'Десятый элемент'</span>;
+    l_index&nbsp;:<span style="color: #66cc66;">=</span> la_elements<span style="color: #66cc66;">.</span>FIRST;
+    LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>la_elements<span style="color: #66cc66;">(</span>l_index<span style="color: #66cc66;">)</span><span style="color: #66cc66;">)</span>;
+        l_index&nbsp;:<span style="color: #66cc66;">=</span> la_elements<span style="color: #66cc66;">.</span>NEXT<span style="color: #66cc66;">(</span>l_index<span style="color: #66cc66;">)</span>;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> l_index <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">NULL</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.BF.D0.B8.D1.81.D0.B8">Слайд: Записи</span></h2>
+<ul><li> Записи (RECORD)</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> тип_запись <span style="color: #993333; font-weight: bold;">IS</span>
+    RECORD <span style="color: #66cc66;">(</span>поле<span style="color: #cc66cc;">1</span> тип<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span> тип<span style="color: #cc66cc;">2</span><span style="color: #66cc66;">,...</span><span style="color: #66cc66;">)</span>; <span style="color: #808080; font-style: italic;">-- Объявление нового типа-записи</span>
+  переменная тип_запись; <span style="color: #808080; font-style: italic;">-- Объявление переменной этого типа</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.BF.D0.B8.D1.81.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Записи <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TEmployee <span style="color: #993333; font-weight: bold;">IS</span> RECORD <span style="color: #66cc66;">(</span>ename VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">10</span><span style="color: #66cc66;">)</span><span style="color: #66cc66;">,</span> job VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">10</span><span style="color: #66cc66;">)</span><span style="color: #66cc66;">)</span>;
+    lr_emp TEmployee;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    lr_emp<span style="color: #66cc66;">.</span>ename&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'SCOTT'</span>;
+    lr_emp<span style="color: #66cc66;">.</span>job&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'ANALYST'</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> lr_emp<span style="color: #66cc66;">.</span>job<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.90.D1.82.D1.80.D0.B8.D0.B1.D1.83.D1.82.D1.8B_.D1.82.D0.B8.D0.BF.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D0.B8">Слайд: Атрибуты типизации</span></h2>
+<ul><li>&nbsp;%TYPE
+<ul><li> Объявление переменной с типом другой переменной.</li>
+<li> Объявление переменной с типом поля таблицы в БД.</li></ul></li>
+<li>&nbsp;%ROWTYPE
+<ul><li> Объявление переменной типа запись, по структуре соответствующей строке таблицы в БД.</li></ul></li></ul>
+<pre class="sql">имя_переменной<span style="color: #cc66cc;">1</span> тип_переменной<span style="color: #cc66cc;">1</span>; 
+имя_переменной<span style="color: #cc66cc;">2</span> имя_переменной<span style="color: #cc66cc;">1</span>%<span style="color: #993333; font-weight: bold;">TYPE</span>; <span style="color: #808080; font-style: italic;">-- Объявление переменной с типом другой переменной</span>
+имя_переменной<span style="color: #cc66cc;">3</span> имя_таблицы<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">.</span>имя_поля%<span style="color: #993333; font-weight: bold;">TYPE</span>; <span style="color: #808080; font-style: italic;">-- Объявление переменной с типом поля таблицы</span>
+имя_переменной<span style="color: #cc66cc;">4</span> имя_таблицы<span style="color: #cc66cc;">2</span>%ROWTYPE; <span style="color: #808080; font-style: italic;">-- Объявление переменной, соответствующей строке таблицы</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.90.D1.82.D1.80.D0.B8.D0.B1.D1.83.D1.82.D1.8B_.D1.82.D0.B8.D0.BF.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D0.B8_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Атрибуты типизации <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_name emp<span style="color: #66cc66;">.</span>ename%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+    l_job emp<span style="color: #66cc66;">.</span>job%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+    lr_emp emp%ROWTYPE;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    l_name&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'JONES'</span>;
+    l_job&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'MANAGER'</span>;
+    lr_emp<span style="color: #66cc66;">.</span>ename&nbsp;:<span style="color: #66cc66;">=</span> l_name;
+    lr_emp<span style="color: #66cc66;">.</span>job&nbsp;:<span style="color: #66cc66;">=</span> l_job;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> lr_emp<span style="color: #66cc66;">.</span>job<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_3._.D0.92.D0.B7.D0.B0.D0.B8.D0.BC.D0.BE.D0.B4.D0.B5.D0.B9.D1.81.D1.82.D0.B2.D0.B8.D0.B5_.D1.81_.D0.91.D0.94_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 3. Взаимодействие с БД (по шагам)</span></h1>
+<ol><li> Извлечение и обработка данных</li>
+<li> Курсоры</li>
+<li> Вызовы SQL в PL/SQL-ном блоке</li>
+<li> Управление изменениями</li>
+<li> Триггеры</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BE.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85">Слайд: Извлечение и обработка данных</span></h2>
+<ul><li> Извлечение одной записи</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  переменная<span style="color: #cc66cc;">1</span> таблица<span style="color: #66cc66;">.</span>поле<span style="color: #cc66cc;">1</span>%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+  переменная<span style="color: #cc66cc;">2</span> таблица<span style="color: #66cc66;">.</span>поле<span style="color: #cc66cc;">2</span>%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">SELECT</span> поле<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">INTO</span> переменная<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> переменная<span style="color: #cc66cc;">2</span>
+    <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+    <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора;
+  <span style="color: #808080; font-style: italic;">-- Дальнейшие действия с переменными  </span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Извлечение данных <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_job emp<span style="color: #66cc66;">.</span>job%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+    l_sal emp<span style="color: #66cc66;">.</span>sal%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+    lr_emp emp%ROWTYPE;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">SELECT</span> job<span style="color: #66cc66;">,</span> sal <span style="color: #993333; font-weight: bold;">INTO</span> l_job<span style="color: #66cc66;">,</span> l_sal
+        <span style="color: #993333; font-weight: bold;">FROM</span> emp
+        <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'SCOTT'</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_job <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_sal<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">INTO</span> lr_emp
+        <span style="color: #993333; font-weight: bold;">FROM</span> emp
+        <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'KING'</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>job <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> lr_emp<span style="color: #66cc66;">.</span>sal<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BE.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_2">Слайд: Извлечение и обработка данных</span></h2>
+<ul><li> Извлечение набора записей</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> тип_коллекция <span style="color: #993333; font-weight: bold;">IS</span>
+    <span style="color: #993333; font-weight: bold;">TABLE</span> <span style="color: #993333; font-weight: bold;">OF</span> таблица<span style="color: #66cc66;">.</span>поле%<span style="color: #993333; font-weight: bold;">TYPE</span>
+    <span style="color: #993333; font-weight: bold;">INDEX</span> <span style="color: #993333; font-weight: bold;">BY</span> BINARY_INTEGER;
+  переменная тип_коллекция;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">SELECT</span> поле BULK COLLECT <span style="color: #993333; font-weight: bold;">INTO</span> переменная
+    <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+    <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора;
+  <span style="color: #808080; font-style: italic;">-- Дальнейшие действия с коллекцией</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.B7.D0.B2.D0.BB.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2">Слайд: Извлечение данных <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TEmpArray <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">TABLE</span> <span style="color: #993333; font-weight: bold;">OF</span> emp%ROWTYPE <span style="color: #993333; font-weight: bold;">INDEX</span> <span style="color: #993333; font-weight: bold;">BY</span> BINARY_INTEGER;
+    la_emp TEmpArray;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> BULK COLLECT <span style="color: #993333; font-weight: bold;">INTO</span> la_emp
+        <span style="color: #993333; font-weight: bold;">FROM</span> emp
+        <span style="color: #993333; font-weight: bold;">WHERE</span> sal <span style="color: #66cc66;">&gt;</span> <span style="color: #cc66cc;">2000</span>;
+    <span style="color: #993333; font-weight: bold;">FOR</span> i <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #cc66cc;">1</span><span style="color: #66cc66;">..</span>la_emp<span style="color: #66cc66;">.</span>COUNT LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>la_emp<span style="color: #66cc66;">(</span>i<span style="color: #66cc66;">)</span><span style="color: #66cc66;">.</span>ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> la_emp<span style="color: #66cc66;">(</span>i<span style="color: #66cc66;">)</span><span style="color: #66cc66;">.</span>job <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> la_emp<span style="color: #66cc66;">(</span>i<span style="color: #66cc66;">)</span><span style="color: #66cc66;">.</span>sal<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B">Слайд: Курсоры</span></h2>
+<p>Курсор — получаемый при выполнении запроса результирующий набор записей плюс привязанный к нему указатель текущей записи.
+</p><p>Курсоры:
+</p>
+<ul><li> Явные (объявляются разработчиком).</li>
+<li> Неявные (не требуют объявления, управляются автоматически).</li></ul>
+<p>Состояние курсора — атрибуты:
+</p>
+<ul><li>&nbsp;%ISOPEN</li>
+<li>&nbsp;%FOUND</li>
+<li>&nbsp;%NOTFOUND</li>
+<li>&nbsp;%ROWCOUNT</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_2">Слайд: Курсоры</span></h2>
+<ul><li> Организация работы с явным курсором</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  CURSOR курсор <span style="color: #993333; font-weight: bold;">IS</span>
+    <span style="color: #993333; font-weight: bold;">SELECT</span> поле<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span>
+      <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+      <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора; <span style="color: #808080; font-style: italic;">-- Объявление курсора</span>
+  переменная<span style="color: #cc66cc;">1</span> таблица<span style="color: #66cc66;">.</span>поле<span style="color: #cc66cc;">1</span>%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+  переменная<span style="color: #cc66cc;">2</span> таблица<span style="color: #66cc66;">.</span>поле<span style="color: #cc66cc;">2</span>%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">OPEN</span> курсор; <span style="color: #808080; font-style: italic;">-- Открытие курсора</span>
+  LOOP <span style="color: #808080; font-style: italic;">-- Цикл по найденным записям</span>
+    FETCH курсор <span style="color: #993333; font-weight: bold;">INTO</span> переменная<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> переменная<span style="color: #cc66cc;">2</span>; <span style="color: #808080; font-style: italic;">-- Получение данных текущей записи</span>
+    EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> курсор%NOTFOUND; <span style="color: #808080; font-style: italic;">-- Записи в курсоре закончились - выход из цикла</span>
+    <span style="color: #808080; font-style: italic;">-- Дальнейшие действия с переменными</span>
+  <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+  CLOSE курсор; <span style="color: #808080; font-style: italic;">-- Закрыть курсор</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_3">Слайд: Курсоры</span></h2>
+<ul><li> Цикл FOR-LOOP</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  CURSOR курсор <span style="color: #993333; font-weight: bold;">IS</span>
+    <span style="color: #993333; font-weight: bold;">SELECT</span> поле<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span>
+      <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+      <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора; <span style="color: #808080; font-style: italic;">-- Объявление курсора</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">FOR</span> запись <span style="color: #993333; font-weight: bold;">IN</span> курсор LOOP <span style="color: #808080; font-style: italic;">-- Цикл по найденным записям</span>
+    <span style="color: #808080; font-style: italic;">-- Действия с записью в виде:</span>
+    <span style="color: #808080; font-style: italic;">-- запись.поле1, запись.поле2</span>
+  <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_4">Слайд: Курсоры</span></h2>
+<ul><li> Цикл FOR-LOOP — и даже проще</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">FOR</span> запись <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #66cc66;">(</span>
+      <span style="color: #993333; font-weight: bold;">SELECT</span> поле<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span>
+        <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+        <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора
+    <span style="color: #66cc66;">)</span>
+  LOOP <span style="color: #808080; font-style: italic;">-- Цикл по найденным записям</span>
+    <span style="color: #808080; font-style: italic;">-- Действия с записью в виде:</span>
+    <span style="color: #808080; font-style: italic;">-- запись.поле1, запись.поле2</span>
+  <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Курсоры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">FOR</span> lc_emp <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #66cc66;">(</span><span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> deptno <span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">30</span><span style="color: #66cc66;">)</span> LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lc_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    <span style="color: #993333; font-weight: bold;">FOR</span> lc_emp <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #66cc66;">(</span><span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> job <span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'ANALYST'</span><span style="color: #66cc66;">)</span> LOOP
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lc_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_5">Слайд: Курсоры</span></h2>
+<ul><li> Использование типа REF CURSOR</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> тип_курсора <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">REF</span> CURSOR; <span style="color: #808080; font-style: italic;">-- Объявление типа-указателя</span>
+  курсор тип_курсора; <span style="color: #808080; font-style: italic;">-- Объявление переменной курсора</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #993333; font-weight: bold;">OPEN</span> курсор <span style="color: #993333; font-weight: bold;">FOR</span>
+      <span style="color: #993333; font-weight: bold;">SELECT</span> поле<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> поле<span style="color: #cc66cc;">2</span>
+        <span style="color: #993333; font-weight: bold;">FROM</span> таблица
+        <span style="color: #993333; font-weight: bold;">WHERE</span> условия_отбора;
+  LOOP 
+    <span style="color: #808080; font-style: italic;">-- Цикл по найденным записям</span>
+  <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+  CLOSE курсор;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D1.83.D1.80.D1.81.D0.BE.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2">Слайд: Курсоры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TCursor <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">REF</span> CURSOR;
+    lc TCursor;
+    lr_emp emp%ROWTYPE;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">OPEN</span> lc <span style="color: #993333; font-weight: bold;">FOR</span> <span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> deptno <span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">30</span>;
+    LOOP
+        FETCH lc <span style="color: #993333; font-weight: bold;">INTO</span> lr_emp;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> lc%NOTFOUND;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    CLOSE lc;
+    <span style="color: #993333; font-weight: bold;">OPEN</span> lc <span style="color: #993333; font-weight: bold;">FOR</span> <span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> job <span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'ANALYST'</span>;
+    LOOP
+        FETCH lc <span style="color: #993333; font-weight: bold;">INTO</span> lr_emp;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> lc%NOTFOUND;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    CLOSE lc;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.92.D1.8B.D0.B7.D0.BE.D0.B2.D1.8B_SQL_.D0.B2_PL.2FSQL-.D0.BD.D0.BE.D0.BC_.D0.B1.D0.BB.D0.BE.D0.BA.D0.B5">Слайд: Вызовы SQL в PL/SQL-ном блоке</span></h2>
+<p>Варианты вызова:
+</p>
+<ul><li> Статический («встроенный» SQL): SQL-операторы формируются на этапе компиляции.</li>
+<li> Динамический: SQL-операторы формируются во время выполнения (в виде текстовых переменных).
+<ul><li> Если текст запроса заранее не может быть известен.</li>
+<li> Если запрос содержит операторы DDL.</li></ul></li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.92.D1.8B.D0.B7.D0.BE.D0.B2.D1.8B_SQL_.D0.B2_PL.2FSQL-.D0.BD.D0.BE.D0.BC_.D0.B1.D0.BB.D0.BE.D0.BA.D0.B5_2">Слайд: Вызовы SQL в PL/SQL-ном блоке</span></h2>
+<ul><li> Bind-переменные</li></ul>
+<pre class="sql">  <span style="color: #808080; font-style: italic;">--...</span>
+  <span style="color: #993333; font-weight: bold;">EXECUTE</span> IMMEDIATE
+    <span style="color: #ff0000;">'SELECT поле1 FROM таблица WHERE поле2 =&nbsp;:1'</span>
+  <span style="color: #993333; font-weight: bold;">INTO</span> переменная<span style="color: #cc66cc;">1</span> <span style="color: #993333; font-weight: bold;">USING</span> переменная<span style="color: #cc66cc;">2</span>;
+  <span style="color: #808080; font-style: italic;">--...</span>
+  <span style="color: #993333; font-weight: bold;">OPEN</span> курсор <span style="color: #993333; font-weight: bold;">FOR</span>
+    <span style="color: #ff0000;">'SELECT поле1 FROM таблица WHERE поле2 =&nbsp;:1'</span>
+  <span style="color: #993333; font-weight: bold;">USING</span> переменная<span style="color: #cc66cc;">2</span>;
+  <span style="color: #808080; font-style: italic;">--...</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.94.D0.B8.D0.BD.D0.B0.D0.BC.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8.D0.B9_SQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Динамический SQL <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TCursor <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">REF</span> CURSOR;
+    lc TCursor;
+    l_select VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'SELECT * FROM emp'</span>;
+    l_where VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    lr_emp emp%ROWTYPE;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    l_where&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'WHERE ename =&nbsp;:1'</span>;
+    <span style="color: #993333; font-weight: bold;">EXECUTE</span> IMMEDIATE l_select <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_where
+        <span style="color: #993333; font-weight: bold;">INTO</span> lr_emp <span style="color: #993333; font-weight: bold;">USING</span> <span style="color: #ff0000;">'MARTIN'</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    l_where&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'WHERE deptno =&nbsp;:1'</span>;
+    <span style="color: #993333; font-weight: bold;">OPEN</span> lc <span style="color: #993333; font-weight: bold;">FOR</span> l_select <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_where
+        <span style="color: #993333; font-weight: bold;">USING</span> <span style="color: #cc66cc;">30</span>;
+    LOOP
+        FETCH lc <span style="color: #993333; font-weight: bold;">INTO</span> lr_emp;
+        EXIT <span style="color: #993333; font-weight: bold;">WHEN</span> lc%NOTFOUND;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>lr_emp<span style="color: #66cc66;">.</span>ename<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+    CLOSE lc;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8">Слайд: Управление изменениями</span></h2>
+<p>Транзакция — последовательность действий с БД, которая:
+</p>
+<ul><li> или полностью фиксируется в БД,</li>
+<li> или полностью отменяется.</li></ul>
+<p>Все SQL-операторы входят в одну транзакцию до тех пор, пока не будет сделана ее фиксация (COMMIT) или откат (ROLLBACK).
+</p>
+<ul><li> Уровни изоляции транзакций.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8_2">Слайд: Управление изменениями</span></h2>
+<ul><li> Сложная (поэтапная) логика действий с БД: промежуточные точки отката</li></ul>
+<pre class="sql"><span style="color: #808080; font-style: italic;">-- Начало действий с БД</span>
+<span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">SAVEPOINT</span> имя; <span style="color: #808080; font-style: italic;">-- Точка отката</span>
+<span style="color: #808080; font-style: italic;">-- Логически сгруппированные действия, которые если что следует</span>
+<span style="color: #808080; font-style: italic;">-- откатывать вместе без отката всей транзакции</span>
+<span style="color: #993333; font-weight: bold;">ROLLBACK</span> <span style="color: #993333; font-weight: bold;">TO</span> <span style="color: #993333; font-weight: bold;">SAVEPOINT</span> имя; 
+<span style="color: #808080; font-style: italic;">--...</span>
+COMMIT; <span style="color: #808080; font-style: italic;">-- Фиксация транзакции</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B7.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F.D0.BC.D0.B8_3">Слайд: Управление изменениями</span></h2>
+<ul><li> Фиксация изменений в БД даже при откате транзакции: автономные транзакции</li></ul>
+<pre class="sql">PRAGMA AUTONOMOUS_TRANSACTION;</pre>
+<ul><li> Блокировки.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D1.80.D0.B8.D0.B3.D0.B3.D0.B5.D1.80.D1.8B">Слайд: Триггеры</span></h2>
+<ul><li> Триггеры на события DML (на строку/на операцию).</li>
+<li> Триггеры INSTEAD OF. </li>
+<li> Триггеры на события DDL.</li>
+<li> Триггеры на события уровня схемы/БД.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A2.D1.80.D0.B8.D0.B3.D0.B3.D0.B5.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Триггеры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> <span style="color: #993333; font-weight: bold;">TRIGGER</span> tbui_emp
+    <span style="color: #993333; font-weight: bold;">BEFORE</span> <span style="color: #993333; font-weight: bold;">INSERT</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">UPDATE</span> <span style="color: #993333; font-weight: bold;">ON</span> emp
+    <span style="color: #993333; font-weight: bold;">FOR</span> EACH <span style="color: #993333; font-weight: bold;">ROW</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+   &nbsp;:<span style="color: #993333; font-weight: bold;">NEW</span><span style="color: #66cc66;">.</span>hiredate&nbsp;:<span style="color: #66cc66;">=</span> NVL<span style="color: #66cc66;">(</span>:<span style="color: #993333; font-weight: bold;">NEW</span><span style="color: #66cc66;">.</span>hiredate<span style="color: #66cc66;">,</span> SYSDATE<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_4._.D0.98.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D1.8F_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 4. Исключения (по шагам)</span></h1>
+<ol><li> Обработка ошибок</li>
+<li> Предопределенные исключения</li>
+<li> Объявление исключений</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.BE.D1.88.D0.B8.D0.B1.D0.BE.D0.BA">Слайд: Обработка ошибок</span></h2>
+<p>Исключение — ошибка времени выполнения.
+</p>
+<ul><li> Нормальное выполнение блока прекращается.</li>
+<li> Управление возвращается внешнему (вызвавшему) блоку.</li>
+<li> ...до тех пор, пока исключение не будет «перехвачено» и обработано:
+<ul><li> выдано user-friendly сообщение пользователю;</li>
+<li> записано в лог;</li>
+<li> проигнорировано;</li>
+<li> ...</li></ul></li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Код программы, в котором ожидается возникновение ошибки</span>
+  <span style="color: #808080; font-style: italic;">-- ...</span>
+EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> исключение <span style="color: #993333; font-weight: bold;">THEN</span> <span style="color: #808080; font-style: italic;">-- Идентификатор перехватываемого исключения</span>
+  <span style="color: #808080; font-style: italic;">-- Обработка исключения</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0_.D0.BE.D1.88.D0.B8.D0.B1.D0.BE.D0.BA_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Обработка ошибок <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_ename VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #ff0000;">'SKOTT'</span>;
+    l_job VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">SELECT</span> job <span style="color: #993333; font-weight: bold;">INTO</span> l_job
+        <span style="color: #993333; font-weight: bold;">FROM</span> emp
+        <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> l_ename;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_job<span style="color: #66cc66;">)</span>;
+EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> NO_DATA_FOUND <span style="color: #993333; font-weight: bold;">THEN</span>
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' - не найден'</span><span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.B5.D0.B4.D0.BE.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D0.B5.D0.BD.D0.BD.D1.8B.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D1.8F">Слайд: Предопределенные исключения</span></h2>
+<ul><li> NO_DATA_FOUND</li>
+<li> TOO_MANY_ROWS</li>
+<li> ZERO_DIVIDE</li>
+<li> INVALID_CURSOR</li>
+<li> VALUE_ERROR</li>
+<li> ...</li></ul>
+<ul><li> OTHERS — перехват всех исключений, не обработанных ранее.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D0.B9">Слайд: Объявление исключений</span></h2>
+<ul><li> Собственное исключение</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  исключение EXCEPTION;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- ...</span>
+  RAISE исключение; <span style="color: #808080; font-style: italic;">-- Принудительная генерация исключения</span>
+  <span style="color: #808080; font-style: italic;">-- ...</span>
+EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> исключение <span style="color: #993333; font-weight: bold;">THEN</span>
+  <span style="color: #808080; font-style: italic;">-- Обработка исключения</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9E.D0.B1.D1.8A.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D1.81.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.BD.D0.B8.D0.B9_2">Слайд: Объявление исключений</span></h2>
+<ul><li> Отождествление исключения с ошибкой Oracle</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+  исключение EXCEPTION;
+  PRAGMA EXCEPTION_INIT<span style="color: #66cc66;">(</span>исключение<span style="color: #66cc66;">,</span> код_ошибки<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Код программы, в котором ожидается возникновение ошибки с кодом «код_ошибки»</span>
+  <span style="color: #808080; font-style: italic;">-- ...</span>
+EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> исключение <span style="color: #993333; font-weight: bold;">THEN</span>
+  <span style="color: #808080; font-style: italic;">-- Обработка исключения</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_5._.D0.9F.D0.BE.D0.B4.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D1.8B_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 5. Подпрограммы (по шагам)</span></h1>
+<ol><li> Функции, процедуры</li>
+<li> Параметры</li>
+<li> Перегрузка функций, процедур</li>
+<li> Рекурсивный вызов</li>
+<li> Управление правами выполнения</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B">Слайд: Функции, процедуры</span></h2>
+<p>Подпрограмма — именованный блок PL/SQL, который может иметь параметры вызова.
+</p><p>Аналогично анонимным блокам могут быть вложенными.
+</p>
+<ul><li> Процедура</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">PROCEDURE</span> процедура <span style="color: #66cc66;">(</span>параметры<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">AS</span>
+  <span style="color: #808080; font-style: italic;">-- Объявление переменных, типов, курсоров и проч. </span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Код процедуры (обязательная часть подпрограммы) </span>
+EXCEPTION   
+  <span style="color: #808080; font-style: italic;">-- Обработка исключений</span>
+<span style="color: #993333; font-weight: bold;">END</span> процедура;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_2">Слайд: Функции, процедуры</span></h2>
+<ul><li> Функция
+<ul><li> Возвращает некоторое значение.</li></ul></li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">FUNCTION</span> функция <span style="color: #66cc66;">(</span>параметры<span style="color: #66cc66;">)</span> 
+  <span style="color: #993333; font-weight: bold;">RETURN</span> тип_значения
+<span style="color: #993333; font-weight: bold;">AS</span>
+  <span style="color: #808080; font-style: italic;">-- Объявление переменных, типов, курсоров и проч. </span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Код функции (обязательная часть подпрограммы) </span>
+EXCEPTION   
+  <span style="color: #808080; font-style: italic;">-- Обработка исключений</span>
+<span style="color: #993333; font-weight: bold;">END</span> функция;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Функции, процедуры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_emp VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_emp<span style="color: #66cc66;">(</span>a_ename VARCHAR2<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2
+    <span style="color: #993333; font-weight: bold;">AS</span>
+        l_sal emp<span style="color: #66cc66;">.</span>sal%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+        l_job emp<span style="color: #66cc66;">.</span>job%<span style="color: #993333; font-weight: bold;">TYPE</span>;
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">SELECT</span> job<span style="color: #66cc66;">,</span> sal <span style="color: #993333; font-weight: bold;">INTO</span> l_job<span style="color: #66cc66;">,</span> l_sal
+            <span style="color: #993333; font-weight: bold;">FROM</span> emp
+            <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> a_ename;
+        <span style="color: #993333; font-weight: bold;">RETURN</span> a_ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_job <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_sal;
+    EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> NO_DATA_FOUND <span style="color: #993333; font-weight: bold;">THEN</span>
+        <span style="color: #993333; font-weight: bold;">RETURN</span> a_ename <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' - не найден'</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> get_emp;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    l_emp&nbsp;:<span style="color: #66cc66;">=</span> get_emp<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'SCOTT'</span><span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_emp<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_3">Слайд: Функции, процедуры</span></h2>
+<ul><li> «Хранимые» функции, процедуры</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> <span style="color: #993333; font-weight: bold;">FUNCTION</span> функция <span style="color: #66cc66;">...</span>
+<span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> <span style="color: #993333; font-weight: bold;">PROCEDURE</span> процедура <span style="color: #66cc66;">...</span></pre>
+<p>Хранимые функции с определенными ограничениями доступны из SQL как и встроенные функции.
+</p>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2">Слайд: Функции, процедуры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_bonus<span style="color: #66cc66;">(</span>a_sal <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> <span style="color: #993333; font-weight: bold;">NUMBER</span>
+<span style="color: #993333; font-weight: bold;">AS</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">IF</span> a_sal <span style="color: #66cc66;">&lt;</span> <span style="color: #cc66cc;">2000</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+        <span style="color: #993333; font-weight: bold;">RETURN</span> <span style="color: #cc66cc;">500</span>;
+    ELSIF a_sal <span style="color: #993333; font-weight: bold;">BETWEEN</span> <span style="color: #cc66cc;">2000</span> <span style="color: #993333; font-weight: bold;">AND</span> <span style="color: #cc66cc;">4000</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+        <span style="color: #993333; font-weight: bold;">RETURN</span> <span style="color: #cc66cc;">1000</span>;
+    <span style="color: #993333; font-weight: bold;">ELSE</span>
+        <span style="color: #993333; font-weight: bold;">RETURN</span> <span style="color: #cc66cc;">0</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+<span style="color: #993333; font-weight: bold;">END</span> get_bonus;</pre>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">SELECT</span> ename<span style="color: #66cc66;">,</span> job<span style="color: #66cc66;">,</span> sal<span style="color: #66cc66;">,</span> get_bonus<span style="color: #66cc66;">(</span>sal<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B">Слайд: Параметры</span></h2>
+<p>Характеризуются:
+</p>
+<ul><li> Имя.</li>
+<li> Режим использования (IN, OUT, IN OUT).</li>
+<li> Тип значения.</li>
+<li> Значение по умолчанию.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">PROCEDURE</span> процедура <span style="color: #66cc66;">(</span>
+    параметр<span style="color: #cc66cc;">1</span> тип<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span>
+    параметр<span style="color: #cc66cc;">2</span> <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #993333; font-weight: bold;">OUT</span> тип<span style="color: #cc66cc;">2</span><span style="color: #66cc66;">,</span>
+    параметр<span style="color: #cc66cc;">3</span> тип<span style="color: #cc66cc;">3</span>&nbsp;:<span style="color: #66cc66;">=</span> значение<span style="color: #cc66cc;">3</span>
+  <span style="color: #66cc66;">)</span>
+<span style="color: #993333; font-weight: bold;">AS</span>
+<span style="color: #808080; font-style: italic;">--...</span></pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B_2">Слайд: Параметры</span></h2>
+<p>Вызов:
+</p>
+<ul><li> Позиционная нотация.</li>
+<li> Именованная нотация.</li></ul>
+<pre class="sql">процедура<span style="color: #66cc66;">(</span>значение<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> значение<span style="color: #cc66cc;">2</span><span style="color: #66cc66;">)</span>;
+процедура<span style="color: #66cc66;">(</span>параметр<span style="color: #cc66cc;">1</span> <span style="color: #66cc66;">=&gt;</span> значение<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">,</span> параметр<span style="color: #cc66cc;">2</span> <span style="color: #66cc66;">=&gt;</span> значение<span style="color: #cc66cc;">2</span><span style="color: #66cc66;">)</span>;</pre>
+<ul><li> Похожим образом параметризуются курсоры.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Параметры <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_dept VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">PROCEDURE</span> get_dept<span style="color: #66cc66;">(</span>a_ename VARCHAR2<span style="color: #66cc66;">,</span> a_dept <span style="color: #993333; font-weight: bold;">OUT</span> <span style="color: #993333; font-weight: bold;">VARCHAR</span><span style="color: #66cc66;">,</span> a_needed <span style="color: #993333; font-weight: bold;">BOOLEAN</span>&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #993333; font-weight: bold;">FALSE</span><span style="color: #66cc66;">)</span>
+    <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">SELECT</span> dname <span style="color: #993333; font-weight: bold;">INTO</span> a_dept
+            <span style="color: #993333; font-weight: bold;">FROM</span> dept
+            <span style="color: #993333; font-weight: bold;">WHERE</span> deptno <span style="color: #66cc66;">=</span> <span style="color: #66cc66;">(</span><span style="color: #993333; font-weight: bold;">SELECT</span> deptno <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> a_ename<span style="color: #66cc66;">)</span>;
+    EXCEPTION <span style="color: #993333; font-weight: bold;">WHEN</span> NO_DATA_FOUND <span style="color: #993333; font-weight: bold;">THEN</span>
+        <span style="color: #993333; font-weight: bold;">IF</span> a_needed <span style="color: #993333; font-weight: bold;">THEN</span>
+            RAISE;
+        <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> get_dept;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    get_dept<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'SCOTT'</span><span style="color: #66cc66;">,</span> l_dept<span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_dept<span style="color: #66cc66;">)</span>;
+    get_dept<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'SKOTT'</span><span style="color: #66cc66;">,</span> a_needed <span style="color: #66cc66;">=&gt;</span> <span style="color: #993333; font-weight: bold;">TRUE</span><span style="color: #66cc66;">,</span> a_dept <span style="color: #66cc66;">=&gt;</span> l_dept<span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_dept<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B5.D1.80.D0.B5.D0.B3.D1.80.D1.83.D0.B7.D0.BA.D0.B0_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B9.2C_.D0.BF.D1.80.D0.BE.D1.86.D0.B5.D0.B4.D1.83.D1.80">Слайд: Перегрузка функций, процедур</span></h2>
+<p>Перегрузка — создание подпрограмм с одним и тем же именем, но отличающихся по:
+</p>
+<ul><li> Типу, количеству, порядку параметров.</li>
+<li> Типу самой подпрограммы (процедура/функция).</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B5.D1.80.D0.B5.D0.B3.D1.80.D1.83.D0.B7.D0.BA.D0.B0_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B9_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Перегрузка функций <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_dept VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_dept_name<span style="color: #66cc66;">(</span>a_deptno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2
+    <span style="color: #993333; font-weight: bold;">AS</span>
+        l_dept VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">SELECT</span> dname <span style="color: #993333; font-weight: bold;">INTO</span> l_dept
+            <span style="color: #993333; font-weight: bold;">FROM</span> dept
+            <span style="color: #993333; font-weight: bold;">WHERE</span> deptno <span style="color: #66cc66;">=</span> a_deptno;
+        <span style="color: #993333; font-weight: bold;">RETURN</span> l_dept;
+    <span style="color: #993333; font-weight: bold;">END</span> get_dept;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_dept_name<span style="color: #66cc66;">(</span>a_ename VARCHAR2<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2
+    <span style="color: #993333; font-weight: bold;">AS</span>
+        l_deptno <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">SELECT</span> deptno <span style="color: #993333; font-weight: bold;">INTO</span> l_deptno
+            <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> ename <span style="color: #66cc66;">=</span> a_ename;
+        <span style="color: #993333; font-weight: bold;">RETURN</span> get_dept_name<span style="color: #66cc66;">(</span>l_deptno<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> get_dept;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    l_dept&nbsp;:<span style="color: #66cc66;">=</span> get_dept_name<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">30</span><span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_dept<span style="color: #66cc66;">)</span>;
+    l_dept&nbsp;:<span style="color: #66cc66;">=</span> get_dept_name<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'SCOTT'</span><span style="color: #66cc66;">)</span>;
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span>l_dept<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A0.D0.B5.D0.BA.D1.83.D1.80.D1.81.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B2.D1.8B.D0.B7.D0.BE.D0.B2">Слайд: Рекурсивный вызов</span></h2>
+<p>Рекурсия — вызов подпрограммы из тела этой же подпрограммы.
+</p>
+<ul><li> Обход структуры в виде дерева.</li>
+<li> Математические вычисления.</li>
+<li> ...</li></ul>
+<ul><li> Важно определить условие выхода из рекурсии.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">FUNCTION</span> функция <span style="color: #66cc66;">(</span>параметры<span style="color: #66cc66;">)</span> 
+  <span style="color: #993333; font-weight: bold;">RETURN</span> тип_значения
+<span style="color: #993333; font-weight: bold;">AS</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>   
+  <span style="color: #808080; font-style: italic;">-- Некая обработка</span>
+  <span style="color: #808080; font-style: italic;">-- ...</span>
+  <span style="color: #993333; font-weight: bold;">IF</span> условие_выхода <span style="color: #993333; font-weight: bold;">THEN</span>
+    <span style="color: #993333; font-weight: bold;">RETURN</span> значение;
+  <span style="color: #993333; font-weight: bold;">ELSE</span>
+    <span style="color: #993333; font-weight: bold;">RETURN</span> функция<span style="color: #66cc66;">(</span>параметры_след_уровня<span style="color: #66cc66;">)</span>;
+  <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+<span style="color: #993333; font-weight: bold;">END</span> функция;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A0.D0.B5.D0.BA.D1.83.D1.80.D1.81.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B2.D1.8B.D0.B7.D0.BE.D0.B2_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Рекурсивный вызов <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    <span style="color: #993333; font-weight: bold;">PROCEDURE</span> print_bosses<span style="color: #66cc66;">(</span>a_empno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span>
+    <span style="color: #993333; font-weight: bold;">AS</span>
+        l_mgr <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+        l_name VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+        l_job VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">SELECT</span> ename<span style="color: #66cc66;">,</span> job<span style="color: #66cc66;">,</span> mgr <span style="color: #993333; font-weight: bold;">INTO</span> l_name<span style="color: #66cc66;">,</span> l_job<span style="color: #66cc66;">,</span> l_mgr
+            <span style="color: #993333; font-weight: bold;">FROM</span> emp
+            <span style="color: #993333; font-weight: bold;">WHERE</span> empno <span style="color: #66cc66;">=</span> a_empno;
+        dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'Ищем босса для:'</span><span style="color: #66cc66;">||</span> l_name <span style="color: #66cc66;">||</span><span style="color: #ff0000;">' '</span><span style="color: #66cc66;">||</span> l_job<span style="color: #66cc66;">)</span>;
+        <span style="color: #993333; font-weight: bold;">IF</span> l_mgr <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">NOT</span> <span style="color: #993333; font-weight: bold;">NULL</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+            print_bosses<span style="color: #66cc66;">(</span>l_mgr<span style="color: #66cc66;">)</span>;
+        <span style="color: #993333; font-weight: bold;">ELSE</span>
+            dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'Не нашли...'</span><span style="color: #66cc66;">)</span>;
+        <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> print_bosses;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    print_bosses<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">7369</span><span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BF.D1.80.D0.B0.D0.B2.D0.B0.D0.BC.D0.B8_.D0.B2.D1.8B.D0.BF.D0.BE.D0.BB.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F">Слайд: Управление правами выполнения</span></h2>
+<ul><li> Вызов c правами создавшего пользователя (по умолчанию).</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">PROCEDURE</span> процедура AUTHID DEFINER <span style="color: #993333; font-weight: bold;">AS</span>
+<span style="color: #808080; font-style: italic;">--...</span></pre>
+<ul><li> Вызов c правами вызвавшего пользователя.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">PROCEDURE</span> процедура AUTHID <span style="color: #993333; font-weight: bold;">CURRENT_USER</span> <span style="color: #993333; font-weight: bold;">AS</span>
+<span style="color: #808080; font-style: italic;">--...</span></pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_6._.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 6. Пакеты PL/SQL (по шагам)</span></h1>
+<ol><li> Структура пакета</li>
+<li> Доступ к элементам пакета</li>
+<li> Инициализация данных пакета</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0">Слайд: Структура пакета</span></h2>
+<p>Пакет — хранимый объект, объединяющий логически близкие типы, данные, подпрограммы.
+</p>
+<ul><li> Спецификация — «интерфейс» пакета.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> PACKAGE пакет <span style="color: #993333; font-weight: bold;">AS</span>
+  <span style="color: #993333; font-weight: bold;">TYPE</span> какой_то_тип <span style="color: #993333; font-weight: bold;">AS</span> <span style="color: #808080; font-style: italic;">/*...*/</span>;
+  какая_то_переменная тип;
+  <span style="color: #993333; font-weight: bold;">PROCEDURE</span> какая_то_процедура;
+  <span style="color: #993333; font-weight: bold;">FUNCTION</span> какая_то_функция <span style="color: #993333; font-weight: bold;">RETURN</span> тип;
+  <span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">END</span> пакет;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0_2">Слайд: Структура пакета</span></h2>
+<ul><li> Тело — реализация.</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> PACKAGE BODY пакет <span style="color: #993333; font-weight: bold;">AS</span>
+  <span style="color: #993333; font-weight: bold;">PROCEDURE</span> какая_то_процедура <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #808080; font-style: italic;">-- Реализация</span>
+  <span style="color: #993333; font-weight: bold;">END</span> какая_то_процедура;
+  <span style="color: #993333; font-weight: bold;">FUNCTION</span> какая_то_функция <span style="color: #993333; font-weight: bold;">RETURN</span> тип <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #808080; font-style: italic;">-- Реализация</span>
+  <span style="color: #993333; font-weight: bold;">END</span> какая_то_функция;
+  <span style="color: #808080; font-style: italic;">--...</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+  <span style="color: #808080; font-style: italic;">-- Блок инициализации</span>
+<span style="color: #993333; font-weight: bold;">END</span> пакет;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.94.D0.BE.D1.81.D1.82.D1.83.D0.BF_.D0.BA_.D1.8D.D0.BB.D0.B5.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D0.BC_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0">Слайд: Доступ к элементам пакета</span></h2>
+<ul><li> Вызов: имя_пакета.имя_элемента.</li>
+<li> Спецификация:
+<ul><li> Объявления всех элементов пакета, к которым должен быть доступ извне.</li></ul></li>
+<li> Тело:
+<ul><li> Внутренние данные, к которым можно обратиться только изнутри пакета.</li></ul></li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.98.D0.BD.D0.B8.D1.86.D0.B8.D0.B0.D0.BB.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D1.8F_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.D0.BF.D0.B0.D0.BA.D0.B5.D1.82.D0.B0">Слайд: Инициализация данных пакета</span></h2>
+<ul><li> Необязательный блок BEGIN-END в теле пакета.</li>
+<li> Выполняется при первом обращении пользователя к элементу пакета.</li>
+<li> Можно заполнить переменные пакета (например из БД), которые затем будут использоваться в подпрограммах пакета.</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Пакеты PL/SQL <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #808080; font-style: italic;">/* Пакет реализует API доступа к данным сотрудников:
+- получение имени сотрудника по его номеру
+- получение названия подразделения сотрудника по его номеру
+Обращения к БД кешируются.
+*/</span>
+<span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> PACKAGE pk_emp <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_name<span style="color: #66cc66;">(</span>a_empno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_dept<span style="color: #66cc66;">(</span>a_empno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2;
+<span style="color: #993333; font-weight: bold;">END</span> pk_emp;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.B0.D0.BA.D0.B5.D1.82.D1.8B_PL.2FSQL_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_2">Слайд: Пакеты PL/SQL <font color="red">— пример</font></span></h2>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">CREATE</span> <span style="color: #993333; font-weight: bold;">OR</span> <span style="color: #993333; font-weight: bold;">REPLACE</span> PACKAGE BODY pk_emp <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #993333; font-weight: bold;">TYPE</span> TStringArray <span style="color: #993333; font-weight: bold;">IS</span> <span style="color: #993333; font-weight: bold;">TABLE</span> <span style="color: #993333; font-weight: bold;">OF</span> VARCHAR2<span style="color: #66cc66;">(</span><span style="color: #cc66cc;">100</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">INDEX</span> <span style="color: #993333; font-weight: bold;">BY</span> BINARY_INTEGER;
+    la_emp TStringArray;
+    la_dept TStringArray;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_name<span style="color: #66cc66;">(</span>a_empno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2
+    <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">IF</span> <span style="color: #993333; font-weight: bold;">NOT</span> la_emp<span style="color: #66cc66;">.</span>EXISTS<span style="color: #66cc66;">(</span>a_empno<span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">THEN</span>
+            <span style="color: #993333; font-weight: bold;">SELECT</span> ename <span style="color: #993333; font-weight: bold;">INTO</span> la_emp<span style="color: #66cc66;">(</span>a_empno<span style="color: #66cc66;">)</span>
+                <span style="color: #993333; font-weight: bold;">FROM</span> emp
+                <span style="color: #993333; font-weight: bold;">WHERE</span> empno <span style="color: #66cc66;">=</span> a_empno;
+        <span style="color: #993333; font-weight: bold;">END</span> <span style="color: #993333; font-weight: bold;">IF</span>;
+        <span style="color: #993333; font-weight: bold;">RETURN</span> la_emp<span style="color: #66cc66;">(</span>a_empno<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> get_name;
+    <span style="color: #993333; font-weight: bold;">FUNCTION</span> get_dept<span style="color: #66cc66;">(</span>a_empno <span style="color: #993333; font-weight: bold;">NUMBER</span><span style="color: #66cc66;">)</span> <span style="color: #993333; font-weight: bold;">RETURN</span> VARCHAR2
+    <span style="color: #993333; font-weight: bold;">AS</span>
+    <span style="color: #993333; font-weight: bold;">BEGIN</span>
+        <span style="color: #993333; font-weight: bold;">RETURN</span> la_dept<span style="color: #66cc66;">(</span>a_empno<span style="color: #66cc66;">)</span>;
+    <span style="color: #993333; font-weight: bold;">END</span> get_dept;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    <span style="color: #993333; font-weight: bold;">FOR</span> lc <span style="color: #993333; font-weight: bold;">IN</span> <span style="color: #66cc66;">(</span><span style="color: #993333; font-weight: bold;">SELECT</span> empno<span style="color: #66cc66;">,</span> dname <span style="color: #993333; font-weight: bold;">FROM</span> emp e<span style="color: #66cc66;">,</span> dept d <span style="color: #993333; font-weight: bold;">WHERE</span> d<span style="color: #66cc66;">.</span>deptno <span style="color: #66cc66;">=</span> e<span style="color: #66cc66;">.</span>deptno<span style="color: #66cc66;">)</span>
+    LOOP
+        la_dept<span style="color: #66cc66;">(</span>lc<span style="color: #66cc66;">.</span>empno<span style="color: #66cc66;">)</span>&nbsp;:<span style="color: #66cc66;">=</span> lc<span style="color: #66cc66;">.</span>dname;
+    <span style="color: #993333; font-weight: bold;">END</span> LOOP;
+<span style="color: #993333; font-weight: bold;">END</span> pk_emp;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A7.D0.B0.D1.81.D1.82.D1.8C_7._.D0.98_.D0.B5.D1.89.D0.B5..._.28.D0.BF.D0.BE_.D1.88.D0.B0.D0.B3.D0.B0.D0.BC.29">Слайд: Часть 7. И еще... (по шагам)</span></h1>
+<ol><li> Получение информации из запроса/блока/функции</li>
+<li> Прочие объекты БД (синонимы, представления)</li>
+<li> Системные представления</li>
+<li> Механизм заданий (jobs)</li>
+<li> Коротко об sqlplus</li></ol>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D0.BE.D0.BB.D1.83.D1.87.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.B8_.D0.B8.D0.B7_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0.2F.D0.B1.D0.BB.D0.BE.D0.BA.D0.B0.2F.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8">Слайд: Получение информации из запроса/блока/функции</span></h2>
+<ul><li> SELECT ... FROM dual;</li>
+<li> Пакет dbms_output</li>
+<li> Пакет dbms_application_info</li>
+<li> ...</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9F.D1.80.D0.BE.D1.87.D0.B8.D0.B5_.D0.BE.D0.B1.D1.8A.D0.B5.D0.BA.D1.82.D1.8B_.D0.91.D0.94">Слайд: Прочие объекты БД</span></h2>
+<ul><li> Синонимы</li></ul>
+<pre>CREATE SYNONYM синоним FOR объект;
+</pre>
+<ul><li> Представления</li></ul>
+<pre>CREATE OR REPLACE VIEW имя
+  AS запрос;
+</pre>
+<ul><li> Последовательности</li></ul>
+<pre>CREATE SEQUENCE имя INCREMENT BY шаг
+  START WITH начальное_значение;
+</pre>
+<dl><dd>Псевдостолбцы NEXTVAL, CURRVAL</dd></dl>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.A1.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.BD.D1.8B.D0.B5_.D0.BF.D1.80.D0.B5.D0.B4.D1.81.D1.82.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F">Слайд: Системные представления</span></h2>
+<ul><li> Получение данных об объектах БД
+<ul><li> all_objects — все объекты</li>
+<li> all_tables — таблицы</li>
+<li> all_tab_columns — колонки таблиц</li>
+<li> all_source — хранимый код PL/SQL</li>
+<li> all_triggers — триггеры</li>
+<li> all_synonyms — синонимы</li>
+<li> all_constraints — ограничения</li>
+<li> all_views — представления</li></ul></li>
+<li> Префикс all: все доступные объекты</li>
+<li> Префикс user: все объекты в схеме данного пользователя</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29">Слайд: Механизм заданий (jobs)</span></h2>
+<ul><li> Пакет dbms_job</li>
+<li> Создание задания</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">DECLARE</span>
+    l_job <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_job<span style="color: #66cc66;">.</span>submit<span style="color: #66cc66;">(</span>l_job<span style="color: #66cc66;">,</span>
+              <span style="color: #ff0000;">'PL/SQL тело задания'</span><span style="color: #66cc66;">,</span>
+               дата_старта<span style="color: #66cc66;">,</span>
+              <span style="color: #ff0000;">'вычисление_след_старта'</span><span style="color: #66cc66;">)</span>;
+    COMMIT;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29_2">Слайд: Механизм заданий (jobs)</span></h2>
+<ul><li> Принудительный запуск задания</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_job<span style="color: #66cc66;">.</span>run<span style="color: #66cc66;">(</span>номер_задания<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<ul><li> Остановка задания</li></ul>
+<pre class="sql"><span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_job<span style="color: #66cc66;">.</span>broken<span style="color: #66cc66;">(</span>номер_задания<span style="color: #66cc66;">,</span> <span style="color: #993333; font-weight: bold;">TRUE</span><span style="color: #66cc66;">)</span>;
+    <span style="color: #808080; font-style: italic;">-- true = остановить; false = возобновить</span>
+<span style="color: #993333; font-weight: bold;">END</span>;</pre>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9C.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC_.D0.B7.D0.B0.D0.B4.D0.B0.D0.BD.D0.B8.D0.B9_.28jobs.29_3">Слайд: Механизм заданий (jobs)</span></h2>
+<ul><li> Представления all_jobs, user_jobs
+<ul><li>THIS_DATE — дата/время старта выполняющегося в данный момент задания</li>
+<li>LAST_DATE — дата/время последнего успешного старта</li>
+<li>NEXT_DATE — дата/время следующего запланированного старта</li>
+<li>TOTAL_TIME — общее время работы задания</li>
+<li>FAILURES — количество стартов с ошибкой с момента последнего успешного</li></ul></li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus">Слайд: Коротко об sqlplus</span></h2>
+<p>Утилита SQL*Plus: позволяет выполнять команды SQL и блоки PL/SQL.
+</p>
+<ul><li> sqlplus — работа в окне командной строки</li>
+<li> sqlplusw — оконная версия</li></ul>
+<p>Запуск:
+</p>
+<pre>sqlplus [опции] [регистрационная информация] [начальный сценарий]
+</pre>
+<p>Опции:
+</p>
+<ul><li> -H(ELP)</li>
+<li> -V(ERSION)</li>
+<li> -S(ILENT)</li>
+<li> ...</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus_2">Слайд: Коротко об sqlplus</span></h2>
+<p>Регистрационная информация:
+</p>
+<ul><li> "пользователь/пароль@база_данных" AS роль</li>
+<li> /NOLOG — запуск без подключения (обычно для выполнения сценариев)</li></ul>
+<p>Начальный сценарий: файл с командами SQL*Plus, операторами SQL и анонимными PL/SQL-блоками, выполняемый при запуске.
+</p><p>Запуск sqlplus <font color="red">— пример</font>:
+</p>
+<pre>sqlplus /NOLOG @script.sql param1 param2
+</pre>
+<ul><li> param1, param2: параметры сценария</li></ul>
+<h2><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.9A.D0.BE.D1.80.D0.BE.D1.82.D0.BA.D0.BE_.D0.BE.D0.B1_sqlplus_.E2.80.94_.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80">Слайд: Коротко об sqlplus <font color="red">— пример</font></span></h2>
+<p>Пример файла сценария:
+</p>
+<pre class="sql"><span style="color: #808080; font-style: italic;">/*script.sql*/</span>
+<span style="color: #808080; font-style: italic;">-- Определить код возврата при ошибке</span>
+WHENEVER SQLERROR EXIT <span style="color: #66cc66;">-</span><span style="color: #cc66cc;">1</span> <span style="color: #993333; font-weight: bold;">ROLLBACK</span>
+<span style="color: #808080; font-style: italic;">-- Подключиться к БД (параметризовано)</span>
+<span style="color: #993333; font-weight: bold;">CONNECT</span> &amp;<span style="color: #cc66cc;">1</span><span style="color: #66cc66;">/</span>&amp;<span style="color: #cc66cc;">2</span>@ORAXE;
+<span style="color: #808080; font-style: italic;">-- Включить вывод</span>
+<span style="color: #993333; font-weight: bold;">SET</span> SERVEROUTPUT <span style="color: #993333; font-weight: bold;">ON</span>;
+<span style="color: #808080; font-style: italic;">-- Логировать действия в файл</span>
+SPOOL test<span style="color: #66cc66;">.</span>log;
+<span style="color: #808080; font-style: italic;">-- Объявить и присвоить bind-переменную     </span>
+var v_cnt <span style="color: #993333; font-weight: bold;">NUMBER</span>;
+<span style="color: #993333; font-weight: bold;">EXEC</span>&nbsp;:v_cnt&nbsp;:<span style="color: #66cc66;">=</span> <span style="color: #cc66cc;">30</span>;
+<span style="color: #808080; font-style: italic;">-- Выполнить команду SQL</span>
+<span style="color: #993333; font-weight: bold;">SELECT</span> <span style="color: #66cc66;">*</span> <span style="color: #993333; font-weight: bold;">FROM</span> emp <span style="color: #993333; font-weight: bold;">WHERE</span> deptno <span style="color: #66cc66;">=</span>&nbsp;:v_cnt;
+<span style="color: #808080; font-style: italic;">-- Выполнить блок PL/SQL</span>
+<span style="color: #993333; font-weight: bold;">BEGIN</span>
+    dbms_output<span style="color: #66cc66;">.</span>put_line<span style="color: #66cc66;">(</span><span style="color: #ff0000;">'Listed employees for deptno '</span><span style="color: #66cc66;">||</span>&nbsp;:v_cnt<span style="color: #66cc66;">)</span>;
+<span style="color: #993333; font-weight: bold;">END</span>;
+<span style="color: #66cc66;">/</span>
+<span style="color: #808080; font-style: italic;">-- Выйти с кодом "успешно"</span>
+EXIT <span style="color: #cc66cc;">0</span>;</pre>
+<h1><span class="mw-headline" id=".D0.A1.D0.BB.D0.B0.D0.B9.D0.B4:_.D0.97.D0.B0.D0.B4.D0.B0.D1.87.D0.B8">Слайд: Задачи</span></h1>
+<p>Цели:
+</p>
+<ul><li> Расширить функциональность API доступа к данным сотрудников (пакет <b>pk_emp</b>) в соответствии с задачами.</li>
+<li> Протестировать его работоспособность.</li></ul>
+<p><a href="http://wikisandbox.custis.ru/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8_%D0%BF%D0%BE_PL/SQL" title="Курс по SQL и PL/SQL/Задачи по PL/SQL">Список задач</a>
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20161031130759
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.728 seconds
+Real time usage: 0.955 seconds
+Preprocessor visited node count: 971/1000000
+Preprocessor generated node count: 1722/1000000
+Post‐expand include size: 0/10485760 bytes
+Template argument size: 0/10485760 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key wikisandbox:pcache:idhash:1751-01!*!0!!en!*!* and timestamp 20161031130758 and revision id 20130
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;oldid=20130">http://wikisandbox.custis.ru/index.php?title=Курс_по_SQL_и_PL/SQL/Основы_PL/SQL&amp;oldid=20130</a>"					</div>
+				<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wikisandbox.custis.ru/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="http://wikisandbox.custis.ru/index.php?title=Category:CustisWikiToSandbox&amp;action=edit&amp;redlink=1" class="new" title="Category:CustisWikiToSandbox (page does not exist)">CustisWikiToSandbox</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="http://wikisandbox.custis.ru/index.php?title=Special:UserLogin&amp;returnto=%D0%9A%D1%83%D1%80%D1%81+%D0%BF%D0%BE+SQL+%D0%B8+PL%2FSQL%2F%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B+PL%2FSQL&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="http://wikisandbox.custis.ru/index.php?title=Special:UserLogin&amp;returnto=%D0%9A%D1%83%D1%80%D1%81+%D0%BF%D0%BE+SQL+%D0%B8+PL%2FSQL%2F%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B+PL%2FSQL" title="You are encouraged to log in; however, it is not mandatory [Alt+Shift+o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="http://wikisandbox.custis.ru/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL" title="View the content page [Alt+Shift+c]" accesskey="c">Page</a></span></li>
+															<li id="ca-talk" class="new"><span><a href="http://wikisandbox.custis.ru/Talk:%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL" title="Discussion about the content page [Alt+Shift+t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0">
+							<span>Variants</span><a href="#" tabindex="-1"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="http://wikisandbox.custis.ru/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL">Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=edit" title="This page is protected.
+You can view its source [Alt+Shift+e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=history" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">View history</a></span></li>
+															<li id="ca-purge" class="collapsible"><span><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=purge" title="Purge/refresh article, clear cache…">purge</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span><a href="#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input name="search" placeholder="Search" title="Search WikiSandbox [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off" type="search"><input value="Special:Search" name="title" type="hidden"><input name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" type="submit">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="http://wikisandbox.custis.ru/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="http://wikisandbox.custis.ru/Main_Page" title="Visit the main page [Alt+Shift+z]" accesskey="z">Main page</a></li><li id="n-.D0.92.D0.B8.D0.BA.D0.B8-.D0.B1.D0.BB.D0.BE.D0.B3.D0.B8"><a href="http://wikisandbox.custis.ru/Special:Wikilog">Вики-блоги</a></li><li id="n-.D0.92.D0.B8.D0.BA.D0.B8-.D1.84.D0.BE.D1.80.D1.83.D0.BC"><a href="http://wikisandbox.custis.ru/index.php/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Wikilog?view=archives&amp;show=published&amp;sort=wlp_talk_updated&amp;desc=1" rel="nofollow">Вики-форум</a></li><li id="n-recentchanges"><a href="http://wikisandbox.custis.ru/Special:RecentChanges" title="A list of recent changes in the wiki [Alt+Shift+r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="http://wikisandbox.custis.ru/Special:Random" title="Load a random page [Alt+Shift+x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+	<div id="po-search" class="portal">
+	<div id="searchBody2" class="pBody">
+		<form action="/index.php" id="searchform">
+			<div>
+				<input name="search" placeholder="Search" title="Search WikiSandbox [Alt+Shift+f]" accesskey="f" id="searchInput2" class="mw-searchInput" autocomplete="off" type="search">				<input name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchGoButton2" class="searchButton" type="submit">				<input name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton2" class="searchButton" type="submit">				<input name="title" value="Special:Search" type="hidden">
+			</div>
+		</form>
+	</div>
+</div>
+		<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="http://wikisandbox.custis.ru/Special:WhatLinksHere/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL" title="A list of all wiki pages that link here [Alt+Shift+j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="http://wikisandbox.custis.ru/Special:RecentChangesLinked/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL" title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="http://wikisandbox.custis.ru/Special:SpecialPages" title="A list of all special pages [Alt+Shift+q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;printable=yes" rel="alternate" title="Printable version of this page [Alt+Shift+p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;oldid=20130" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=info" title="More information about this page">Page information</a></li><li id="t-cleanmonobook" title="Show clean page version, without any toolboxes/navigation, but with screen styles - useful for saving in HTM/MHT formats."><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;useskin=cleanmonobook">Clean HTML</a></li><li id="t-export2word" title="Export to MS Word"><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=export2word">→M$WORD</a></li><li id="t-export2oo" title="Export to Open Office"><a href="http://wikisandbox.custis.ru/index.php?title=%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL/SQL/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_PL/SQL&amp;action=export2oo">→OOffice</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 30 June 2011, at 18:56.</li>
+											<li id="footer-info-numberofwatchingusers">[0 watching users]</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikisandbox.custis.ru/WikiSandbox:Privacy_policy" title="WikiSandbox:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="http://wikisandbox.custis.ru/WikiSandbox:About" title="WikiSandbox:About">About WikiSandbox</a></li>
+											<li id="footer-places-disclaimer"><a href="http://wikisandbox.custis.ru/WikiSandbox:General_disclaimer" title="WikiSandbox:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="http://www.mediawiki.org/"><img src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a><a href="http://wiki.4intra.net/MediaWiki4Intranet"><img src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/poweredby-4intranet.png" title="Powered by MediaWiki4Intranet extension bundle" alt="MediaWiki4Intranet" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.SlimboxThumbs","ext.wikilog"]);
+} );</script>
+<script type="text/javascript" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/msgresize.js"></script>
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgBackendResponseTime":234});
+} );</script>
+	
+
+<div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="#"></a><a id="lbNextLink" href="#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div><div style="display: none; font-size: 13px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div><div style="display: none; font-size: 12.8px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div><iframe class="hb1477946699249" id="hb1477946699249" style="width: 1px; height: 1px; position: absolute; top: -100000px; left: -100000px; visibility: visible; overflow: hidden;" border="no" scrolling="no" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/altHbHandler.htm" frameborder="0"></iframe><iframe id="asdfad" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/idle.htm" visibility="visible" overflow="hidden" border="no" scrolling="no" style="width: 0;  height: 0;  position: absolute;  top: -10031px;  left:-1000000px;" frameborder="0"></iframe><iframe class="hb1477946700104" id="hb1477946700104" style="width: 1px; height: 1px; position: absolute; top: -100000px; left: -100000px; visibility: visible; overflow: hidden;" border="no" scrolling="no" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/altHbHandler_002.htm" frameborder="0"></iframe><iframe class="dealply-toast s" id="s" style="width: 1px; height: 1px; position: absolute; top: -100000px; left: -100000px; visibility: visible; overflow: hidden;" border="no" scrolling="no" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/skinedEmpty.htm" frameborder="0"></iframe><iframe class="hb1477946915231" id="hb1477946915231" style="width: 1px; height: 1px; position: absolute; top: -100000px; left: -100000px; visibility: visible; overflow: hidden;" border="no" scrolling="no" src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/altHbHandler_003.htm" frameborder="0"></iframe></body><script src="%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_SQL_%D0%B8_PL_files/opt_content.js" type="application/x-javascript"></script></html>
